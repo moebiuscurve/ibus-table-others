@@ -1,0 +1,22 @@
+Requirements:
+
+    You need to install ibus-table first.
+
+Introduction:
+    
+    ibus-table-others provides the following input methods on IBus-Table on IBus framework:
+
+    * CNS11643
+    * Compose
+    * Emoji
+    * IPA-X-SAMPA
+    * LaTex
+    * Mathwriter
+    * RussianTraditional
+    * Thai
+    * Translit
+    * Ua-Translit
+    * Viqr
+    * Yawerty
+
+    All aforementioned tables are released under GNU Public License version 3.
