@@ -1,0 +1,165 @@
+# vim:set ts=4
+#
+# ibus-table-other - Other tables for IBus-Table
+#
+# Copyright (c) 2009-2010 Caius 'kaio' Chance < k at kaio.me >
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+# if not 1, append datestamp to the version number.
+m4_define([package_name], [ibus-table-others])
+m4_define([ibus_released], [0])
+m4_define([ibus_major_version], [1])
+m4_define([ibus_minor_version], [3])
+m4_define([ibus_micro_version], [0])
+# commented out as datestamp doesn't suit dist date.
+m4_define(ibus_maybe_datestamp,
+    m4_esyscmd([if test x]ibus_released[ != x1; then date +.%Y%m%d | tr -d '\n\r'; fi]))
+#m4_define([ibus_maybe_datestamp], [.20090907])
+
+m4_define([ibus_version],
+    ibus_major_version.ibus_minor_version.ibus_micro_version[]ibus_maybe_datestamp)
+
+AC_INIT([package_name], [ibus_version], [http://code.google.com/p/ibus/issues/entry], [package_name])
+AM_INIT_AUTOMAKE([1.10])
+AM_MAINTAINER_MODE
+
+# AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
+
+# check python
+AM_PATH_PYTHON([2.5])
+
+# check for ibus-table-createdb
+PKG_CHECK_MODULES([IBUS_TABLE], [ibus-table >= 1.2.0])
+AC_ARG_VAR([IBUS_TABLE_CREATEDB],[[ibus-table-createdb, which generate db]])
+
+AC_PATH_PROG([IBUS_TABLE_CREATEDB],[ibus-table-createdb],
+        [AC_MSG_ERROR([ibus-table-createdb not found.])])
+
+# choose table
+AC_ARG_ENABLE([ipaxsampa],
+    [AC_HELP_STRING([--enable-ipaxsampa],
+        [Generate ipx-a-sampa Engine])], ,
+    [enable_ipaxsampa=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_IPAXSAMPA],[test x"$enable_ipaxsampa" != x"no"])
+
+AC_ARG_ENABLE([compose],
+    [AC_HELP_STRING([--enable-compose],
+        [Generate Compose Engine])], ,
+    [enable_compose=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_COMPOSE],[test x"$enable_compose" != x"no"])
+
+AC_ARG_ENABLE([translit],
+    [AC_HELP_STRING([--enable-translit],
+        [Generate Translit Engine])], ,
+    [enable_translit=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_TRANSLIT],[test x"$enable_translit" != x"no"])
+
+AC_ARG_ENABLE([translitua],
+    [AC_HELP_STRING([--enable-translitua],
+        [Generate Ukrainian Translit Engine])], ,
+    [enable_translitua=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_TRANSLITUA],[test x"$enable_translitua" != x"no"])
+
+AC_ARG_ENABLE([rustrad],
+    [AC_HELP_STRING([--enable-rustrad],
+        [Generate Russian Traditional Engine])], ,
+    [enable_rustrad=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_RUSTRAD],[test x"$enable_rustrad" != x"no"])
+
+AC_ARG_ENABLE([yawerty],
+    [AC_HELP_STRING([--enable-yawerty],
+        [Generate Yawerty Engine])], ,
+    [enable_yawerty=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_YAWERTY],[test x"$enable_yawerty" != x"no"])
+
+AC_ARG_ENABLE([thai],
+    [AC_HELP_STRING([--enable-thai],
+        [Generate Thai Engine])], ,
+    [enable_thai=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_THAI],[test x"$enable_thai" != x"no"])
+
+AC_ARG_ENABLE([viqr],
+    [AC_HELP_STRING([--enable-viqr],
+        [Generate Viqr Engine])], ,
+    [enable_viqr=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_VIQR],[test x"$enable_viqr" != x"no"])
+
+AC_ARG_ENABLE([latex],
+    [AC_HELP_STRING([--enable-latex],
+        [Generate Latex Engine])], ,
+    [enable_latex=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_LATEX],[test x"$enable_latex" != x"no"])
+
+AC_ARG_ENABLE([cns11643],
+    [AC_HELP_STRING([--enable-cns11643],
+        [Generate CNS11643 Engine])], ,
+    [enable_cns11643=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_CNS11643],[test x"$enable_cns11643" != x"no"])
+
+AC_ARG_ENABLE([emoji],
+    [AC_HELP_STRING([--enable-emoji],
+        [Generate Emoji Engine])], ,
+    [enable_emoji=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_EMOJI],[test x"$enable_emoji" != x"no"])
+
+AC_ARG_ENABLE([mathwriter],
+    [AC_HELP_STRING([--enable-mathwriter],
+        [Generate Mathwriter Engine])], ,
+    [enable_mathwriter=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_MATHWRITER],[test x"$enable_mathwriter" != x"no"])
+
+# OUTPUT files
+AC_CONFIG_FILES(Makefile
+icons/Makefile
+tables/Makefile
+m4/Makefile
+emoji-src/Makefile
+ibus-table-others.spec
+)
+
+AC_OUTPUT
+
+AC_MSG_RESULT([
+Build options:
+  Version                   $VERSION
+  Install prefix            $prefix
+  Build compose             $enable_compose
+  Build ipx-a-sampa         $enable_ipaxsampa
+  Build Translit            $enable_translit
+  Build Ukrainian Translit  $enable_translitua
+  Build Russian Traditional $enable_rustrad
+  Build Yawerty             $enable_yawerty
+  Build Thai                $enable_thai
+  Build Viqr                $enable_viqr
+  Build Latex               $enable_latex
+  Build CNS11643            $enable_cns11643
+  Build Emoji               $enable_emoji
+  Build Mathwriter          $enable_mathwriter
+])
+

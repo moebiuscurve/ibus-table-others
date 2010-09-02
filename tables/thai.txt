@@ -1,0 +1,202 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+### Derived from th-kesmanee.mim table in m17n-db.
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = d63402a2-2268-44fc-b415-99eb2276ff7b
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20050908
+
+ICON = thai.png
+
+### The default name of this table
+NAME = Thai
+
+### Author of this table
+AUTHOR = Jens Petersen <petersen@redhat.com>
+
+### Supported locales of this table
+LANGUAGES = th
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Th
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputting string automatically.
+AUTO_WILDCARD = FALSE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+### It is supposed to be 1 but need to be 2 to avoid schema mismatch bug in 
+### optimize_database() in ibus-table.
+MAX_KEY_LENGTH = 2
+
+### Valid input chars.
+### Since '=' is one of the VALID_INPUT_CHARS, ibus-table fallback to delimit 
+### with '=='.
+VALID_INPUT_CHARS == !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+### Single wildcard char, can have multiple chars.
+###SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+###MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+### SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = VoidSymbol
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = VoidSymbol
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = VoidSymbol
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = VoidSymbol
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = VoidSymbol
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+!	+	1000
+"	.	1000
+#	๒	1000
+$	๓	1000
+%	๔	1000
+&	฿	1000
+'	ง	1000
+(	๖	1000
+)	๗	1000
+*	๕	1000
++	๙	1000
+,	ม	1000
+-	ข	1000
+.	ใ	1000
+/	ฝ	1000
+0	จ	1000
+1	ๅ	1000
+2	/	1000
+3	-	1000
+4	ภ	1000
+5	ถ	1000
+6	ุ	1000
+7	ึ	1000
+8	ค	1000
+9	ต	1000
+:	ซ	1000
+;	ว	1000
+<	ฒ	1000
+=	ช	1000
+>	ฬ	1000
+?	ฦ	1000
+@	๑	1000
+A	ฤ	1000
+B	ฺ	1000
+C	ฉ	1000
+D	ฏ	1000
+E	ฎ	1000
+F	โ	1000
+G	ฌ	1000
+H	็	1000
+I	ณ	1000
+J	๋	1000
+K	ษ	1000
+L	ศ	1000
+M	?	1000
+N	์	1000
+O	ฯ	1000
+P	ญ	1000
+Q	๐	1000
+R	ฑ	1000
+S	ฆ	1000
+T	ธ	1000
+U	๊	1000
+V	ฮ	1000
+W	"	1000
+X	)	1000
+Y	ํ	1000
+Z	(	1000
+[	บ	1000
+\	ฃ	1000
+]	ล	1000
+^	ู	1000
+_	๘	1000
+`	_	1000
+a	ฟ	1000
+b	ิ	1000
+c	แ	1000
+d	ก	1000
+e	ำ	1000
+f	ด	1000
+g	เ	1000
+h	้	1000
+i	ร	1000
+j	่	1000
+k	า	1000
+l	ส	1000
+m	ท	1000
+n	ื	1000
+o	น	1000
+p	ย	1000
+q	ๆ	1000
+r	พ	1000
+s	ห	1000
+t	ะ	1000
+u	ี	1000
+v	อ	1000
+w	ไ	1000
+x	ป	1000
+y	ั	1000
+z	ผ	1000
+{	ฐ	1000
+|	ฅ	1000
+}	,	1000
+~	%	1000
+END_TABLE

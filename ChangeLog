@@ -1,0 +1,51 @@
+commit 9f313785974daa99619ac2682a2f0b333067efdf
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 22:52:48 2010 +1000
+
+    - Updated README.
+
+commit 27b5116b30af3fb16ad217587b6abd7273d86da9
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 22:45:30 2010 +1000
+
+    - Fixed configure.ac typo.
+
+commit 72487bfe82d2a705f7659c7dc195a392be2cc108
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 22:44:17 2010 +1000
+
+    - Fixed configure.ac typo.
+
+commit b3e7021b1690a285b7e87d9cc3630052a712f06f
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 22:41:59 2010 +1000
+
+    - Updated configure.ac.
+
+commit e97d8d123a2326cb089e97209deff2f8c8808f4e
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 22:36:40 2010 +1000
+
+    - Updated document contents.
+
+commit d450414a41d8bbbe13525aee2691d106dd393251
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 15:03:21 2010 +1000
+
+    - Added Russian Traditional tables and icons.
+    - Added Yawerty tables and icons.
+    - Removed unwanted files.
+    - Renamed .spec.in file.
+
+commit 21127629032a126d9e90f3ee0ec8743abf60d930
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Thu Jan 7 14:53:20 2010 +1000
+
+    - First commit.
+    - Cloned from ibus-table-translit
+
+commit 5122881e0490d0601bb4fa59faeae5a6f300bd69
+Author: Caius 'kaio' Chance <cchance@strauss.(none)>
+Date:   Wed Jan 6 06:43:38 2010 +1000
+
+    first commit

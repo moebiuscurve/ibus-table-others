@@ -1,0 +1,190 @@
+### Table         Translit Table
+###
+### Author        Daniil Ivanov <daniil.ivanov@gmail.com>
+### Maintainer    Caius 'kaio' Chance < k at kaio.me >
+###
+### Description   Translit Table for IBus-Table. This file is derived from
+###               SCIM Tables format, which is derived from GTK2 Input Method
+###               Cyrillic (Transliterated).
+###
+### This file must be encoded into UTF-8.
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = e39c975a-262b-4ad3-b9b8-15c5ff211e4e
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20100111
+
+ICON = translit.png
+
+### The default name of this table
+NAME = Translit
+
+### The local names of this table 
+###NAME.ru_RU = 
+
+### Supported languages of this table
+LANGUAGES = ru_RU
+
+### The author of this table
+AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Я
+
+### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
+KEYBOARD_LAYOUT = US_Default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = FALSE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 2
+
+### Valid input chars.
+VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnopqrstuvwxyzäöü'"#
+
+### Single wildcard char, can have multiple chars.
+###SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+###MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = Shift+space
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = 1,2,3,4,5,6,7,8,9
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+A	А	1000
+B	Б	1000
+V	В	1000
+G	Г	1000
+D	Д	1000
+E	Е	1000
+Jo	Ё	1000
+Zh	Ж	1000
+Z	З	1000
+I	И	1000
+J	Й	1000
+K	К	1000
+L	Л	1000
+M	М	1000
+N	Н	1000
+O	О	1000
+P	П	1000
+R	Р	1000
+S	С	1000
+T	Т	1000
+U	У	1000
+F	Ф	1000
+H	Х	1000
+C	Ц	1000
+Ch	Ч	1000
+Sh	Ш	1000
+W	Щ	1000
+##	Ъ	1000
+Y	Ы	1000
+"	Ь	1000
+Je	Э	1000
+Ju	Ю	1000
+Ja	Я	1000
+a	а	1000
+b	б	1000
+v	в	1000
+g	г	1000
+d	д	1000
+e	е	1000
+jo	ё	1000
+yo	ё	1000
+ö	ё	1000
+zh	ж	1000
+z	з	1000
+i	и	1000
+j	й	1000
+k	к	1000
+l	л	1000
+m	м	1000
+n	н	1000
+o	о	1000
+p	п	1000
+r	р	1000
+s	с	1000
+t	т	1000
+u	у	1000
+f	ф	1000
+h	х	1000
+x	х	1000
+c	ц	1000
+ch	ч	1000
+sh	ш	1000
+w	щ	1000
+shh	щ	1000
+#	ъ	1000
+y	ы	1000
+'	ь	1000
+je	э	1000
+ä	э	1000
+ju	ю	1000
+yu	ю	1000
+ü	ю	1000
+ja	я	1000
+ya	я	1000
+q	я	1000
+END_TABLE
