@@ -82,7 +82,7 @@ DEF_FULL_WIDTH_LETTER = FALSE
 MAX_KEY_LENGTH = 2
 
 ### Valid input chars.
-VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnopqrstuvwxyzäöü'"#
+VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnopqrstuvwxyzäöü'#
 
 ### Single wildcard char, can have multiple chars.
 ###SINGLE_WILDCARD_CHAR = ?
@@ -119,7 +119,11 @@ G	Г	1000
 D	Д	1000
 E	Е	1000
 Jo	Ё	1000
+JO	Ё	1000
+Yo	Ё	1000
+YO	Ё	1000
 Zh	Ж	1000
+ZH	Ж	1000
 Z	З	1000
 I	И	1000
 J	Й	1000
@@ -135,16 +139,32 @@ T	Т	1000
 U	У	1000
 F	Ф	1000
 H	Х	1000
+X	Х	1000
 C	Ц	1000
 Ch	Ч	1000
+CH	Ч	1000
 Sh	Ш	1000
+SH	Ш	1000
 W	Щ	1000
+Shh	Щ	1000
+SHH	Щ	1000
+Sj	Щ	1000
+SJ	Щ	1000
 ##	Ъ	1000
 Y	Ы	1000
-"	Ь	1000
+''	Ь	1000
 Je	Э	1000
+JE	Э	1000
+E'	Э	1000
 Ju	Ю	1000
+JU	Ю	1000
+Yu	Ю	1000
+YU	Ю	1000
 Ja	Я	1000
+JA	Я	1000
+Ya	Я	1000
+YA	Я	1000
+Q	Я	1000
 a	а	1000
 b	б	1000
 v	в	1000
@@ -176,10 +196,12 @@ ch	ч	1000
 sh	ш	1000
 w	щ	1000
 shh	щ	1000
+sj	щ	1000
 #	ъ	1000
 y	ы	1000
 '	ь	1000
 je	э	1000
+e'	э	1000
 ä	э	1000
 ju	ю	1000
 yu	ю	1000
