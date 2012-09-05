@@ -1,6 +1,13 @@
-### File header must not be modified
+### Table         Translit Table
+###
+### Author        Daniil Ivanov <daniil.ivanov@gmail.com>
+### Maintainer    Caius 'kaio' Chance < k at kaio.me >
+###
+### Description   Translit Table for IBus-Table. This file is derived from
+###               SCIM Tables format, which is derived from GTK2 Input Method
+###               Cyrillic (Transliterated).
+###
 ### This file must be encoded into UTF-8.
-### This file is derived from GTK2 Input Method Cyrillic Transliterated
 SCIM_Generic_Table_Phrase_Library_TEXT
 VERSION_1_0
 
@@ -121,6 +128,8 @@ Z	З	0
 I	І	0
 Ji	Ї	0
 JI	Ї	0
+Yi	Ї	0
+YI	Ї	0
 Y	И	0
 J	Й	0
 K	К	0
@@ -140,13 +149,21 @@ CH	Ч	0
 Ch	Ч	0
 Sh	Ш	0
 SH	Ш	0
+W	Щ	0
+Shh	Щ	0
+SHH	Щ	0
 Sj	Щ	0
 SJ	Щ	0
 ''	Ь	0
-JU	Ю	0
 Ju	Ю	0
+JU	Ю	0
+Yu	Ю	0
+YU	Ю	0
 Ja	Я	0
 JA	Я	0
+Ya	Я	0
+YA	Я	0
+Q	Я	0
 "	'	0
 a	а	0
 b	б	0
@@ -160,6 +177,7 @@ zh	ж	0
 z	з	0
 i	і	0
 ji	ї	0
+yi	ї	0
 y	и	0
 j	й	0
 k	к	0
@@ -177,8 +195,13 @@ h	х	0
 c	ц	0
 ch	ч	0
 sh	ш	0
+w	щ	0
+shh	щ	0
 sj	щ	0
 '	ь	0
 ju	ю	0
+yu	ю	0
 ja	я	0
+ya	я	0
+q	я	0
 END_TABLE
