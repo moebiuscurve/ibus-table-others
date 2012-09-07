@@ -38,7 +38,7 @@ LANGUAGES = uk_UA
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
 
 ### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Ua
+STATUS_PROMPT = Yi
 
 ### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
 KEYBOARD_LAYOUT = US_Default
