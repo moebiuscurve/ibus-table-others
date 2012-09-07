@@ -36,7 +36,7 @@ LANGUAGES = ru_RU
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
 
 ### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Я
+STATUS_PROMPT = Ya
 
 ### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
 KEYBOARD_LAYOUT = US_Default
