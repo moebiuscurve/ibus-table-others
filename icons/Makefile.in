@@ -54,8 +54,8 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 @IBUS_TABLE_BUILD_COMPOSE_TRUE@am__append_1 = compose.svg
 @IBUS_TABLE_BUILD_IPAXSAMPA_TRUE@am__append_2 = ipa-x-sampa.svg
-@IBUS_TABLE_BUILD_TRANSLIT_TRUE@am__append_3 = translit.png
-@IBUS_TABLE_BUILD_TRANSLITUA_TRUE@am__append_4 = translit-ua.png
+@IBUS_TABLE_BUILD_TRANSLIT_TRUE@am__append_3 = translit.svg
+@IBUS_TABLE_BUILD_TRANSLITUA_TRUE@am__append_4 = translit-ua.svg
 @IBUS_TABLE_BUILD_RUSTRAD_TRUE@am__append_5 = rustrad.png
 @IBUS_TABLE_BUILD_YAWERTY_TRUE@am__append_6 = yawerty.png
 @IBUS_TABLE_BUILD_THAI_TRUE@am__append_7 = thai.png
@@ -193,8 +193,8 @@ iconsdir = $(datadir)/ibus-table/icons
 EXTRA_DIST = \
 	compose.svg \
 	ipa-x-sampa.svg \
-	translit.png \
-	translit-ua.png \
+	translit.svg \
+	translit-ua.svg \
 	rustrad.png \
 	yawerty.png \
 	thai.png \

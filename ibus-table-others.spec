@@ -49,8 +49,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %doc AUTHORS COPYING README
-%{_datadir}/ibus-table/icons/translit.png
-%{_datadir}/ibus-table/icons/translit-ua.png
+%{_datadir}/ibus-table/icons/translit.svg
+%{_datadir}/ibus-table/icons/translit-ua.svg
 %{_datadir}/ibus-table/icons/rustrad.png
 %{_datadir}/ibus-table/icons/yawerty.png
 %{_datadir}/ibus-table/tables/translit.db
