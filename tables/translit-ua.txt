@@ -23,7 +23,7 @@ UUID = 9068f86e-02b5-400b-9732-4f9433ac9968
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20061108
 
-ICON = translit-ua.png
+ICON = translit-ua.svg
 
 ### The default name of this table
 NAME = Ua-Translit
