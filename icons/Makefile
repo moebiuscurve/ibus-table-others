@@ -54,8 +54,8 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 am__append_1 = compose.svg
 am__append_2 = ipa-x-sampa.png
-am__append_3 = translit.png
-am__append_4 = translit-ua.png
+am__append_3 = translit.svg
+am__append_4 = translit-ua.svg
 am__append_5 = rustrad.png
 am__append_6 = yawerty.png
 am__append_7 = thai.png
@@ -193,8 +193,8 @@ iconsdir = $(datadir)/ibus-table/icons
 EXTRA_DIST = \
 	compose.svg \
 	ipa-x-sampa.png \
-	translit.png \
-	translit-ua.png \
+	translit.svg \
+	translit-ua.svg \
 	rustrad.png \
 	yawerty.png \
 	thai.png \
