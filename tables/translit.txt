@@ -19,7 +19,7 @@ UUID = e39c975a-262b-4ad3-b9b8-15c5ff211e4e
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20100111
+SERIAL_NUMBER = 20120906
 
 ICON = translit.svg
 
