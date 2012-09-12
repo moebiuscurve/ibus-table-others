@@ -32,7 +32,7 @@ DESCRIPTION = Use LaTeX input keystrokes to input lots of symbols.
 AUTHOR = Somebody unknown
 
 ### Supported locales of this table
-LANGUAGES = 
+LANGUAGES = other
 
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = Σ
