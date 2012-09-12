@@ -39,7 +39,7 @@ AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
 STATUS_PROMPT = Ya
 
 ### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
-KEYBOARD_LAYOUT = US_Default
+KEYBOARD_LAYOUT = Unknown
 
 ### If true then the first candidate phrase
 ### will be selected automatically during inputing.
