@@ -25,7 +25,7 @@ icons_DATA += compose.svg
 endif
 
 if IBUS_TABLE_BUILD_IPAXSAMPA
-icons_DATA += ipa-x-sampa.png
+icons_DATA += ipa-x-sampa.svg
 endif
 
 if IBUS_TABLE_BUILD_TRANSLIT
@@ -74,7 +74,7 @@ iconsdir = $(datadir)/ibus-table/icons
 
 EXTRA_DIST = \
 	compose.svg \
-	ipa-x-sampa.png \
+	ipa-x-sampa.svg \
 	translit.png \
 	translit-ua.png \
 	rustrad.png \
