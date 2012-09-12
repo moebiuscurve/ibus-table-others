@@ -24,7 +24,7 @@ UUID = 4ceee9b7-d890-4984-9b7b-9471c3dc7791
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20050425
 
-ICON = @SCIM_ICONDIR@/IPA-X-SAMPA.png
+ICON = ipa-x-sampa.svg
 
 ### The default name of this table
 NAME = IPA-X-SAMPA
