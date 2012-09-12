@@ -33,7 +33,7 @@ NAME = Compose
 ### The local names of this table 
 
 ### Supported languages of this table
-LANGUAGES = 
+LANGUAGES = other
 
 AUTHOR = Yu Yuwei <yu-yuwei@xmu.edu.cn> 
 
