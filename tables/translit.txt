@@ -19,7 +19,7 @@ UUID = e39c975a-262b-4ad3-b9b8-15c5ff211e4e
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20120906
+SERIAL_NUMBER = 20130202
 
 ICON = translit.svg
 
@@ -79,7 +79,7 @@ USE_FULL_WIDTH_LETTER = FALSE
 DEF_FULL_WIDTH_LETTER = FALSE
 
 ### The maxmium length of a key.
-MAX_KEY_LENGTH = 2
+MAX_KEY_LENGTH = 3
 
 ### Valid input chars.
 VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZÄÖÜabcdefghijklmnopqrstuvwxyzäöü'#
