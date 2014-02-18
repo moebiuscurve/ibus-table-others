@@ -27,6 +27,9 @@ DESCRIPTION = Mimic Compose Key input
 ### ICON 
 ICON = compose.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Ć
+
 ### The default name of this table
 NAME = Compose
 

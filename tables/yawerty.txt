@@ -18,6 +18,9 @@ SERIAL_NUMBER = 20040403
 
 ICON = yawerty.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Я
+
 ### The default name of this table
 NAME = Yawerty
 
