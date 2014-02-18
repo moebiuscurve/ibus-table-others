@@ -18,6 +18,9 @@ SERIAL_NUMBER = 20050908
 
 ICON = thai.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = ก
+
 ### The default name of this table
 NAME = Thai
 

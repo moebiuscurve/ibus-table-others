@@ -26,6 +26,9 @@ SERIAL_NUMBER = 20050425
 
 ICON = ipa-x-sampa.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = ə
+
 ### The default name of this table
 NAME = IPA-X-SAMPA
 

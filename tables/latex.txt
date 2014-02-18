@@ -22,6 +22,9 @@ LICENSE = LGPL
 
 ICON = latex.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = ∑
+
 ### The default name of this table
 NAME = LaTeX
 
