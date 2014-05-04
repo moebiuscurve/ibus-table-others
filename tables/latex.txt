@@ -57,6 +57,9 @@ MAX_KEY_LENGTH = 20
 ### Valid input chars.
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\_[]{}
 
+### Start character, every key in the table starts with this character
+START_CHARS = \
+
 ### Layout
 LAYOUT = us
 
