@@ -33,6 +33,12 @@ LANGUAGES = th
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = Th
 
+### Layout
+### This table seems to emulate a Thai keyboard, it is not
+### a transliteration input method. Therefore, we should require
+### the “us” keyboard layout
+LAYOUT = us
+
 ### If true then the first candidate phrase
 ### will be selected automatically during inputing.
 AUTO_SELECT = TRUE

@@ -43,6 +43,11 @@ AUTHOR = Yu Yuwei <yu-yuwei@xmu.edu.cn>
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = C
 
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
 ### Valid input chars.
 VALID_INPUT_CHARS == abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:`~!^*()-_=+'",.<>/\
 MAX_KEY_LENGTH = 2

@@ -16,7 +16,11 @@ icon = mathwriter.png
 MAX_KEY_LENGTH = 100
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ{}[]\|:.<>/?!@#$%^&*()_+-0123456789
 
-LAYOUT = us
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
 AUTO_SELECT = FALSE
 AUTO_WILDCARD = FALSE
 AUTO_COMMIT = FALSE

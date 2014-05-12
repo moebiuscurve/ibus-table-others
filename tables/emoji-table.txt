@@ -55,7 +55,9 @@ STATUS_PROMPT = CN
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz
 
 ### Layout
-LAYOUT = us
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
 
 ### The max number of input keys for every phrase or character.
 MAX_KEY_LENGTH = 20
