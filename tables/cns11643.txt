@@ -43,7 +43,7 @@ AUTO_SELECT = TRUE
 
 ### If true then a multi wildcard will be appended
 ### at the end of inputing string automatically.
-AUTO_WILDCARD = FALSE
+AUTO_WILDCARD = TRUE
 
 ### If true then the result string will be committed to client automatically.
 ### This should be used with AUTO_SELECT = TRUE.
@@ -79,7 +79,7 @@ MAX_KEY_LENGTH = 5
 VALID_INPUT_CHARS = 0123456789abcdef
 
 ### Single wildcard char, can have multiple chars.
-### SINGLE_WILDCARD_CHAR = *
+SINGLE_WILDCARD_CHAR = ?
 
 ### Multi wildcard char.
 MULTI_WILDCARD_CHAR = *
