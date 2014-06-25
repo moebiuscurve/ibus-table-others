@@ -65,6 +65,16 @@ START_CHARS = \
 ### Therefore, we should not require a special layout like “us”.
 LAYOUT = default
 
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR = *
+
 ### Whether user are allow to define phrase, default is true
 ### You have to define the word construction rules below.
 ### For input methods which do not input phrases, set this to False

@@ -84,6 +84,16 @@ PINYIN_MODE = FALSE
 ### according your using frequency.
 DYNAMIC_ADJUST = TRUE 
 
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR = *
+
 ### Some characters whose frequencies should be fix all the time, e.g. 
 ### some punctuations
 ### NO_CHECK_CHARS = 

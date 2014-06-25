@@ -51,6 +51,12 @@ AUTO_SELECT = TRUE
 ### at the end of inputing string automatically.
 AUTO_WILDCARD = TRUE
 
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
 ### If true then the result string will be committed to client automatically.
 ### This should be used with AUTO_SELECT = TRUE.
 AUTO_COMMIT = TRUE
@@ -85,12 +91,6 @@ MAX_KEY_LENGTH = 3
 
 ### Valid input chars.
 VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZÄÖÜabcdefghijklmnopqrstuvwxyzäöü'#
-
-### Single wildcard char, can have multiple chars.
-###SINGLE_WILDCARD_CHAR = ?
-
-### Multi wildcard char.
-###MULTI_WILDCARD_CHAR = *
 
 ### The key strokes to split inputted string.
 ###SPLIT_KEYS = quoteright
