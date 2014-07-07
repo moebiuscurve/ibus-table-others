@@ -39,7 +39,7 @@ NAME = IPA-X-SAMPA
 LANGUAGES = other
 
 ### The author of this table
-AUTHOR = Mike FABIAN <mfabian@suse.de>
+AUTHOR = Mike FABIAN <maiku.fabian@gmail.com>
 
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = IPA
