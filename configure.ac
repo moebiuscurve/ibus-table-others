@@ -40,7 +40,7 @@ AM_MAINTAINER_MODE
 AC_CONFIG_MACRO_DIR([m4])
 
 # check python
-AM_PATH_PYTHON([2.5])
+AM_PATH_PYTHON([3.3])
 
 # check for ibus-table-createdb
 PKG_CHECK_MODULES([IBUS_TABLE], [ibus-table >= 1.2.0])
