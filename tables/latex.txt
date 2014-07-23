@@ -101,6 +101,7 @@ BEGIN_TABLE
 \ddot	¨	0
 \lnot	¬	0
 \bar	¯	0
+\circ	∘	0
 \circ	°	0
 \pm	±	0
 \acute	´	0
