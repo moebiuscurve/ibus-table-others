@@ -85,6 +85,13 @@ AC_ARG_ENABLE([rustrad],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_RUSTRAD],[test x"$enable_rustrad" != x"no"])
 
+AC_ARG_ENABLE([rusle],
+    [AC_HELP_STRING([--enable-rusle],
+        [Generate Russian Legacy Engine])], ,
+    [enable_rusle=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_RUSLE],[test x"$enable_rusle" != x"no"])
+
 AC_ARG_ENABLE([yawerty],
     [AC_HELP_STRING([--enable-yawerty],
         [Generate Yawerty Engine])], ,
@@ -154,6 +161,7 @@ Build options:
   Build Translit            $enable_translit
   Build Ukrainian Translit  $enable_translitua
   Build Russian Traditional $enable_rustrad
+  Build Russian Legacy      $enable_rusle
   Build Yawerty             $enable_yawerty
   Build Thai                $enable_thai
   Build Viqr                $enable_viqr

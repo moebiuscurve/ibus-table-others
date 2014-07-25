@@ -43,6 +43,10 @@ if IBUS_TABLE_BUILD_RUSTRAD
 tables_DATA += rustrad.db
 endif
 
+if IBUS_TABLE_BUILD_RUSLE
+tables_DATA += rusle.db
+endif
+
 if IBUS_TABLE_BUILD_YAWERTY
 tables_DATA += yawerty.db
 endif
@@ -81,6 +85,7 @@ EXTRA_DIST = \
 	translit.txt \
 	translit-ua.txt \
 	rustrad.txt \
+	rusle.txt \
 	yawerty.txt \
 	thai.txt \
 	viqr.txt \
