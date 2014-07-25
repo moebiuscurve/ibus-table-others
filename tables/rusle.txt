@@ -16,12 +16,12 @@ UUID = 83e1cb20-027c-11e3-8ffd-0800200c9a66
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20130811
 
-ICON = rustrad.png
+ICON = rusle.png
 
 ### The default name of this table
 NAME = RussianLegacy2
 
-### The local names of this table 
+### The local names of this table
 NAME.ru_RU = Русская (устаревшая)
 
 ### Supported languages of this table
@@ -33,8 +33,9 @@ AUTHOR = Stas Sergeev <stsp@users.sourceforge.net>
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = Р
 
-### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
-KEYBOARD_LAYOUT = US_Default
+### The Keyboard Layout used by this table.
+### Set to "default" to accept any kind of layout
+KEYBOARD_LAYOUT = us
 
 ### If true then the first candidate phrase
 ### will be selected automatically during inputing.
@@ -42,7 +43,13 @@ AUTO_SELECT = TRUE
 
 ### If true then a multi wildcard will be appended
 ### at the end of inputing string automatically.
-AUTO_WILDCARD = FALSE
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
 
 ### If true then the result string will be committed to client automatically.
 ### This should be used with AUTO_SELECT = TRUE.
@@ -79,12 +86,6 @@ MAX_KEY_LENGTH = 2
 
 ### Valid input chars.
 VALID_INPUT_CHARS = @$%^&F<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Zf,dult`;pbqrkvyjghcnea[wxio]sm'.z
-
-### Single wildcard char, can have multiple chars.
-###SINGLE_WILDCARD_CHAR = ?
-
-### Multi wildcard char.
-###MULTI_WILDCARD_CHAR = *
 
 ### The key strokes to split inputted string.
 ###SPLIT_KEYS = quoteright

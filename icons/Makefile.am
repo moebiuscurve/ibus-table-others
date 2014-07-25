@@ -40,6 +40,10 @@ if IBUS_TABLE_BUILD_RUSTRAD
 icons_DATA += rustrad.png
 endif
 
+if IBUS_TABLE_BUILD_RUSLE
+icons_DATA += rusle.png
+endif
+
 if IBUS_TABLE_BUILD_YAWERTY
 icons_DATA += yawerty.png
 endif
@@ -78,6 +82,7 @@ EXTRA_DIST = \
 	translit.svg \
 	translit-ua.svg \
 	rustrad.png \
+	rusle.png \
 	yawerty.png \
 	thai.png \
 	viqr.png \

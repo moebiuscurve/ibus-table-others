@@ -25,6 +25,7 @@ The Cyrillic tables for IBus Table.
   --disable-static \
   --enable-translit \
   --enable-translitua \
+  --enable-rusle \
   --enable-rustrad \
   --enable-yawerty 
   --enable-mathwriter 
@@ -39,6 +40,7 @@ make DESTDIR=${RPM_BUILD_ROOT} NO_INDEX=true install
 %post
 ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/translit.db
 ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/translit-ua.db
+ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/rusle.db
 ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/rustrad.db
 ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/yawerty.db
 ibus-table-createdb -i -n %{_datadir}/ibus-table/tables/mathwriter-ibus.db
@@ -51,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS COPYING README
 %{_datadir}/ibus-table/icons/translit.svg
 %{_datadir}/ibus-table/icons/translit-ua.svg
+%{_datadir}/ibus-table/icons/rusle.png
 %{_datadir}/ibus-table/icons/rustrad.png
 %{_datadir}/ibus-table/icons/yawerty.png
 %{_datadir}/ibus-table/tables/translit.db
