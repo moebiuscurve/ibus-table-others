@@ -81,8 +81,7 @@ USE_FULL_WIDTH_LETTER = FALSE
 DEF_FULL_WIDTH_LETTER = FALSE
 
 ### The maxmium length of a key.
-### MAX_KEY_LENGTH = 1 (changed to 2 to fake col prob in sqlite db)
-MAX_KEY_LENGTH = 2
+MAX_KEY_LENGTH = 1
 
 ### Valid input chars.
 VALID_INPUT_CHARS = F<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Zf,dult`;pbqrkvyjghcnea[wxio]sm'.z
