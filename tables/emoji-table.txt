@@ -70,11 +70,6 @@ DEF_FULL_WIDTH_PUNCT = TRUE
 ### Not use full width letter by default
 DEF_FULL_WIDTH_LETTER = FALSE
 
-### Whether user are allow to define phrase, default is true
-### You have to define the word construction rules below.
-### For input methods which do not input phrases, set this to False
-USER_CAN_DEFINE_PHRASE = FALSE
-
 ### Whether support PinYin Mode, default is true.
 ### this feature is just for Chinese, set it to False if your IM is not
 ### Chinese.
@@ -98,17 +93,14 @@ MULTI_WILDCARD_CHAR = *
 ### some punctuations
 ### NO_CHECK_CHARS = 
 
-### Rules for constructing user defined phrase
-### "ce" stands for "ci equal", a Chinese English :), means "phrase length
-### equal to", thus ce2 -> phrase length equal to 2; and "ca" means "phrase
-### length equal or above", so ca4 -> phrase length equal or above 4.
-### p21 -> the 1st key of 2nd character in the phrase, and so on.
-### Each rule separate via ";". 
-### Example below is a complete rule-set, 
-### becuase [2,2] ∩ [3,3] ∩ [4,+∞] = [2,+∞], which is the range of length
-### of phrase. This have to be satisfied if you need ibus-table to build up
-### your own inputed phrase via your daily using.
-RULES = ce2:p11+p12+p21+p22;ce3:p11+p21+p22+p31;ca4:p11+p21+p31+p41
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Rules for constructing user defined phrase (This is not useful
+### for emoji-table, therefore it is set to the empty string.)
+RULES =
 
 END_DEFINITION
 
