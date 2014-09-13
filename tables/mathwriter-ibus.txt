@@ -9,6 +9,7 @@ SERIAL_NUMBER = 20100505
 NAME = mathwriter
 
 LANGUAGES = other
+SYMBOL = Σ
 STATUS_PROMPT = Σ
 
 icon = mathwriter.png

@@ -18,6 +18,12 @@ SERIAL_NUMBER = 20080814
 
 ICON = rustrad.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Р
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Р
+
 ### The default name of this table
 NAME = RussianTraditional
 
@@ -29,9 +35,6 @@ LANGUAGES = ru_RU
 
 ### The author of this table
 AUTHOR = Yuri Victorovich <yuri@rawbw.com>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Р
 
 ### The Keyboard Layout used by this table.
 ### Set to "default" to accept any kind of layout.

@@ -25,6 +25,12 @@ SERIAL_NUMBER = 20130202
 
 ICON = translit-ua.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Yi
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Yi
+
 ### The default name of this table
 NAME = Ua-Translit
 
@@ -36,9 +42,6 @@ LANGUAGES = uk_UA
 
 ### The author of this table
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Yi
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

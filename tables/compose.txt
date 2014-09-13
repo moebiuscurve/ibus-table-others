@@ -30,6 +30,9 @@ ICON = compose.svg
 ### The symbol to be displayed in IM switchers
 SYMBOL = Ć
 
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Ć
+
 ### The default name of this table
 NAME = Compose
 
@@ -39,9 +42,6 @@ NAME = Compose
 LANGUAGES = other
 
 AUTHOR = Yu Yuwei <yu-yuwei@xmu.edu.cn> 
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = C
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

@@ -18,6 +18,12 @@ SERIAL_NUMBER = 20051218
 
 ICON = cns11643.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = 中
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = 中
+
 ### The default name of this table
 NAME = CNS11643
 
@@ -28,9 +34,6 @@ NAME.zh_HK = 交換碼
 
 ### Supported languages of this table
 LANGUAGES = zh_TW,zh_HK,zh_CN,zh_SG
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = 中
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

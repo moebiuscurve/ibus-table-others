@@ -29,6 +29,9 @@ ICON = ipa-x-sampa.svg
 ### The symbol to be displayed in IM switchers
 SYMBOL = ə
 
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = ə
+
 ### The default name of this table
 NAME = IPA-X-SAMPA
 
@@ -40,9 +43,6 @@ LANGUAGES = other
 
 ### The author of this table
 AUTHOR = Mike FABIAN <maiku.fabian@gmail.com>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = IPA
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

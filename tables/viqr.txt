@@ -17,6 +17,12 @@ SERIAL_NUMBER = 20041009
 
 ICON = viqr.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = đ
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = đ
+
 ### The default name of this table
 NAME = Viqr
 
@@ -28,9 +34,6 @@ LANGUAGES = vi_VN
 
 ### The author of this table
 AUTHOR = Samuel Thibault <samuel.thibault@ens-lyon.org>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = đ
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

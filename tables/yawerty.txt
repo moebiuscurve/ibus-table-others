@@ -21,6 +21,9 @@ ICON = yawerty.png
 ### The symbol to be displayed in IM switchers
 SYMBOL = Я
 
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Я
+
 ### The default name of this table
 NAME = Yawerty
 
@@ -32,9 +35,6 @@ LANGUAGES = ru_RU
 
 ### The author of this table
 AUTHOR = Matthew Fischer <futhark@users.sourceforge.net>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Я
 
 ### The Keyboard Layout used by this table.
 ### Set to "default" to accept any kind of layouts.

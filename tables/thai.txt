@@ -21,6 +21,9 @@ ICON = thai.png
 ### The symbol to be displayed in IM switchers
 SYMBOL = ก
 
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = ก
+
 ### The default name of this table
 NAME = Thai
 
@@ -29,9 +32,6 @@ AUTHOR = Jens Petersen <petersen@redhat.com>
 
 ### Supported locales of this table
 LANGUAGES = th
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Th
 
 ### Layout
 ### This table seems to emulate a Thai keyboard, it is not

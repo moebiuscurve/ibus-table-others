@@ -27,6 +27,12 @@ SERIAL_NUMBER = 20100211
 ### the most widely ones are "png" and "svg", letter one is recommended
 ICON = ibus-emoji.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = ^_^
+
+### Prompt string to be displayed in the status area
+STATUS_PROMPT = ^_^
+
 ### The default name of this table, this is needed
 NAME = emoji
 
@@ -46,10 +52,6 @@ LANGUAGES = zh_CN,zh_SG,zh_TW,zh_HK
 
 ### The author of this table
 AUTHOR = Shellex Y <5h3ll3x@gmail.com> 
-
-### Prompt string to be displayed in the status area, CN will be replaced by
-### the gettext tools in runtime as 中.
-STATUS_PROMPT = CN
 
 ### Valid input chars.
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz

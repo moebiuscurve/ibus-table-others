@@ -23,6 +23,12 @@ SERIAL_NUMBER = 20130202
 
 ICON = translit.svg
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Ya
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Ya
+
 ### The default name of this table
 NAME = Translit
 
@@ -34,9 +40,6 @@ LANGUAGES = ru_RU
 
 ### The author of this table
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Ya
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.

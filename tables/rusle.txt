@@ -18,6 +18,12 @@ SERIAL_NUMBER = 20130811
 
 ICON = rusle.png
 
+### The symbol to be displayed in IM switchers
+SYMBOL = Р
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Р
+
 ### The default name of this table
 NAME = RussianLegacy2
 
@@ -29,9 +35,6 @@ LANGUAGES = ru_RU
 
 ### The author of this table
 AUTHOR = Stas Sergeev <stsp@users.sourceforge.net>
-
-### Prompt string to be displayed in the status area.
-STATUS_PROMPT = Р
 
 ### The Keyboard Layout used by this table.
 ### Set to "default" to accept any kind of layout
