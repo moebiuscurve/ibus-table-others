@@ -1,10 +1,30 @@
-commit 9bdba1a391ec3e86003520897c4170c76b58f1c2
+commit 999f2b3b4bd8d5fa78023f60eab088a1836e5e50
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Mon Sep 15 17:00:02 2014 +0200
+
+    Release 1.3.4
+
+commit cf2f2268ddbbf0b9a07b8a8002e93d7dc98a9f1a
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Sat Sep 13 11:31:15 2014 +0200
+
+    Make status prompts and symbols more consistent
+    
+    - Use status prompt “^_^” for emoji-table instead of “CN”
+      The icon ibus-emoji.svg also looks similar.
+    - Use status prompt “Ć” instead of “C” for compose.txt
+      Looks nicer, compose is about typing accents.
+      It also looks more like the icon that way.
+    - Make sure that all tables have both status prompts and symbols
+      (They can be the same always).
+
+commit cb7d05e0eed928ffaa3a337b929210aa9db78623
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Mon Sep 1 16:14:15 2014 +0200
 
     Release 1.3.3
 
-commit 7012fbfcb3d25593996a97cfe2f2c33cda6a1510
+commit e9c55f90486655deb63d6ba92bfaa768bfe90c82
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Mon Sep 1 15:52:41 2014 +0200
 
