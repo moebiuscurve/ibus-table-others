@@ -32,13 +32,13 @@ SYMBOL = Yi
 STATUS_PROMPT = Yi
 
 ### The default name of this table
-NAME = Ua-Translit
+NAME = Translit
 
 ### The local names of this table 
 ###NAME.ua_UA = 
 
 ### Supported languages of this table
-LANGUAGES = uk_UA
+LANGUAGES = uk
 
 ### The author of this table
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>

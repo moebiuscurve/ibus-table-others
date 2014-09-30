@@ -31,7 +31,7 @@ NAME = Yawerty
 ###NAME.ru_RU = 
 
 ### Supported languages of this table
-LANGUAGES = ru_RU
+LANGUAGES = ru
 
 ### The author of this table
 AUTHOR = Matthew Fischer <futhark@users.sourceforge.net>

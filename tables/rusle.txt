@@ -25,13 +25,15 @@ SYMBOL = Р
 STATUS_PROMPT = Р
 
 ### The default name of this table
-NAME = RussianLegacy2
+NAME = legacy
 
 ### The local names of this table
-NAME.ru_RU = Русская (устаревшая)
+NAME.en = legacy
+NAME.de = alt
+NAME.ru = устаревшая
 
 ### Supported languages of this table
-LANGUAGES = ru_RU
+LANGUAGES = ru
 
 ### The author of this table
 AUTHOR = Stas Sergeev <stsp@users.sourceforge.net>

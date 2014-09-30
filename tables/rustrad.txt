@@ -25,13 +25,13 @@ SYMBOL = Р
 STATUS_PROMPT = Р
 
 ### The default name of this table
-NAME = RussianTraditional
+NAME = Traditional
 
 ### The local names of this table 
 ###NAME.ru_RU = 
 
 ### Supported languages of this table
-LANGUAGES = ru_RU
+LANGUAGES = ru
 
 ### The author of this table
 AUTHOR = Yuri Victorovich <yuri@rawbw.com>

@@ -36,7 +36,7 @@ NAME = Translit
 ###NAME.ru_RU = 
 
 ### Supported languages of this table
-LANGUAGES = ru_RU
+LANGUAGES = ru
 
 ### The author of this table
 AUTHOR = Daniil Ivanov <daniil.ivanov@gmail.com>

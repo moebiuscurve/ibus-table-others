@@ -30,7 +30,7 @@ NAME = Viqr
 ### NAME.am = vi_VN
 
 ### Supported languages of this table
-LANGUAGES = vi_VN
+LANGUAGES = vi
 
 ### The author of this table
 AUTHOR = Samuel Thibault <samuel.thibault@ens-lyon.org>
