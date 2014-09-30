@@ -1,4 +1,36 @@
-commit 999f2b3b4bd8d5fa78023f60eab088a1836e5e50
+commit 32431ad2736bc5357ef9315ef625966d15a5c8bb
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue Sep 30 13:14:42 2014 +0200
+
+    Release 1.3.5
+
+commit 04f72fe38d399011801fe894971826a200ab64b4
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue Sep 30 12:58:05 2014 +0200
+
+    Use better localized names for the rusle table
+    
+    Because of LANGUAGES = ru (or LANGUAGES = ru_RU), the (possibly
+    translated) language name is added as a prefix to the (possibly
+    localized) long name of the input method anyway when displayed by in
+    the Gnome control centre or in the input method selection menu of
+    gnome. When listing with “ibus list-engine” it is in the section for
+    the language.
+    
+    Therefore, adding the language again as a prefix to the input method
+    name or the localized input method names is superfluous.
+    
+    Using the language only in localized tables names, i.e.
+    
+        NAME.ru = устаревшая
+    
+    instead of
+    
+        NAME.ru_RU = устаревшая
+    
+    requires ibus-table >= 1.9.1.
+
+commit c7bd213c9ef52ee854ee3eaf9711741d0c666eed
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Mon Sep 15 17:00:02 2014 +0200
 
