@@ -1,4 +1,29 @@
-commit 32431ad2736bc5357ef9315ef625966d15a5c8bb
+commit 102b1f24c0c268b4b6431c39f3508ed027f0b5c6
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Sat Nov 22 08:13:46 2014 +0100
+
+    Release 1.3.6
+
+commit fb64b5b35373dc3f00d6386f50fc07f06182a3f3
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Sat Nov 22 08:08:47 2014 +0100
+
+    Fix typo in compose.txt
+    
+    Reported by James Wood.
+    
+    The line
+    
+        NG     ŊF      1
+    
+    looks indeed like a typo.
+    
+    From /usr/share/X11/locale/en_US.UTF-8/Compose:
+    
+    <Multi_key> <N> <G>              	: "Ŋ"   U014A # LATIN CAPITAL LETTER ENG
+    <Multi_key> <n> <g>              	: "ŋ"   U014B # LATIN SMALL LETTER ENG
+
+commit 5d44f0cbd2365a30078d72495cfece494b19194f
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Tue Sep 30 13:14:42 2014 +0200
 
