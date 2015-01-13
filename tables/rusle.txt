@@ -89,7 +89,7 @@ DEF_FULL_WIDTH_LETTER = FALSE
 MAX_KEY_LENGTH = 1
 
 ### Valid input chars.
-VALID_INPUT_CHARS = @$%^&F<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Zf,dult`;pbqrkvyjghcnea[wxio]sm'.z
+VALID_INPUT_CHARS = @#$%^&*()?/F<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Zf,dult`;pbqrkvyjghcnea[wxio]sm'.z
 
 ### The key strokes to split inputted string.
 ###SPLIT_KEYS = quoteright
@@ -122,18 +122,24 @@ END_DEFINITION
 
 ### Begin Table data.
 BEGIN_TABLE
+~	(	0
+`	)	0
 @	"	0
-$	;	0
+#	/	0
+$	¤	0
 %	:	0
 ^	,	0
 &	.	0
+*	;	0
+(	?	0
+)	%	0
 F	А	0
 <	Б	0
 D	В	0
 U	Г	0
 L	Д	0
 T	Е	0
-~	Ё	0
+?	Ё	0
 :	Ж	0
 P	З	0
 B	И	0
@@ -166,7 +172,7 @@ d	в	0
 u	г	0
 l	д	0
 t	е	0
-`	ё	0
+/	ё	0
 ;	ж	0
 p	з	0
 b	и	0
