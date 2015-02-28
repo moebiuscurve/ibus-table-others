@@ -3086,10 +3086,10 @@ _a	ₐ	0
 suba	ₐ	0
 sub_e	ₑ	0
 _e	ₑ	0
-sube	ₕ	0
-subh	ₕ	0
+sube	ₑ	0
 sub_h	ₕ	0
 _h	ₕ	0
+subh	ₕ	0
 sub_i	ᵢ	0
 _i	ᵢ	0
 subi	ᵢ	0
