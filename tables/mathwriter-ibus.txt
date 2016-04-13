@@ -3210,8 +3210,10 @@ subt	ₜ	0
 sub_u	ᵤ	0
 subu	ᵤ	0
 sub_v	ᵥ	0
+_v	ᵥ	0
 subv	ᵥ	0
 sub_x	ₓ	0
+_x	ₓ	0
 subx	ₓ	0
 subset_above_subset	⫕	0
 E	⫕	0
