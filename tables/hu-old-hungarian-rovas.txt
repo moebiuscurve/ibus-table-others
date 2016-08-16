@@ -1,0 +1,251 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+###
+### This file implements Old Hungarian. See:
+###
+### https://en.wikipedia.org/wiki/Old_Hungarian_alphabet
+###
+### This should be used with a Hungarian keyboard layout
+### (other keyboard layouts might lack some of the special
+### Hungarian characters like ó, ö, ő, ...)
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 13fca261-3ad5-4b1c-87e2-d44c3b286f18
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20160016
+
+ICON = hu-old-hungarian-rovas.svg
+
+### The symbol to be displayed in IM switchers
+### I would like to use some Old Hungarian character like 𐲢 here,
+### unfortunately Gnome3 has problems displaying “☑𐲢” and “☐𐲢”
+### correctly in the status bar (the checkbox becomes invisible
+### making it impossible to see whether the input is active or not).
+### Therefore, I use just a Latin “r” as a workaround.
+SYMBOL = r
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = r
+
+### The default name of this table
+NAME = Rovas
+
+### The local names of this table
+NAME.en = Old Hungarian
+NAME.de = Altungarisch
+NAME.hu = Rovás
+
+### Supported languages of this table
+LANGUAGES = hu
+
+### The author of this table
+AUTHOR = Mike FABIAN <maiku.fabian@gmail.com>
+
+### The Keyboard Layout used by this table.
+### Set to "default" to accept any kind of layout
+###
+### This table can be used with any keyboard layout supporting
+### all necessary input characters. That means it is probably best
+### used with a Hungarian layout but may work with some others.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 3
+
+### Valid input chars.
+VALID_INPUT_CHARS == _ABCDEFGHIJKLMNOPQRSTUVWXYZÁËÉÓÖŐÚÜŰabcdefghijklmnopqrstuvwxyzáéëóöőúüű
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Rules for constructing user defined phrase (This is not useful
+### for this table, therefore it is set to the empty string.)
+RULES =
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+a	𐳀	0
+A	𐲀	0
+á	𐳁	0
+Á	𐲁	0
+b	𐳂	0
+B	𐲂	0
+c	𐳄	0
+C	𐲄	0
+cs	𐳆	0
+Cs	𐲆	0
+CS	𐲆	0
+d	𐳇	0
+D	𐲇	0
+dz	𐳇𐳯	0
+Dz	𐲇𐳯	0
+DZ	𐲇𐲯	0
+dzs	𐳇𐳰	0
+Dzs	𐲇𐳰	0
+DZs	𐲇𐲰	0
+DZS	𐲇𐲰	0
+e	𐳉	0
+E	𐲉	0
+ë	𐳊	0
+Ë	𐲊	0
+é	𐳋	0
+É	𐲋	0
+f	𐳌	0
+F	𐲌	0
+g	𐳍	0
+G	𐲍	0
+gy	𐳎	0
+Gy	𐲎	0
+GY	𐲎	0
+h	𐳏	0
+H	𐲏	0
+i	𐳐	0
+I	𐲐	0
+í	𐳑	0
+Í	𐲑	0
+j	𐳒	0
+J	𐲒	0
+k	𐳓	0
+K	𐲓	0
+k_	𐳔	0	### Alternative for k
+K_	𐲔	0	### Alternative for K
+l	𐳖	0
+L	𐲖	0
+ly	𐳗	0
+Ly	𐲗	0
+LY	𐲗	0
+m	𐳘	0
+M	𐲘	0
+n	𐳙	0
+N	𐲙	0
+ny	𐳚	0
+Ny	𐲚	0
+NY	𐲚	0
+o	𐳛	0
+O	𐲛	0
+ó	𐳜	0
+Ó	𐲜	0
+ö	𐳞	0
+Ö	𐲞	0
+ö_	𐳝	0	### Alternative for ö
+Ö_	𐲝	0	### Alternative for Ö
+ő	𐳟	0
+Ő	𐲟	0
+p	𐳠	0
+P	𐲠	0
+q	𐳓𐳮	0
+Q	𐲓𐲮	0
+r	𐳢	0
+R	𐲢	0
+s	𐳤	0
+S	𐲤	0
+sz	𐳥	0
+Sz	𐲥	0
+SZ	𐲥	0
+t	𐳦	0
+T	𐲦	0
+ty	𐳨	0
+Ty	𐲨	0
+TY	𐲨	0
+u	𐳪	0
+U	𐲪	0
+ú	𐳫	0
+Ú	𐲫	0
+ü	𐳬	0
+Ü	𐲬	0
+ű	𐳭	0
+Ű	𐲭	0
+v	𐳮	0
+V	𐲮	0
+w	𐳮𐳮	0
+W	𐲮𐲮	0
+x	𐳓𐳥	0
+X	𐲓𐲥	0
+y	𐳐𐳒	0
+Y	𐲐𐲒	0
+z	𐳯	0
+Z	𐲯	0
+zs	𐳰	0
+Zs	𐲰	0
+ZS	𐲰	0
+ENT	𐲧	0
+EMP	𐲡	0
+UNK	𐲕	0
+US	𐲲	0
+AMB	𐲃	0
+END_TABLE

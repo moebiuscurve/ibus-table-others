@@ -141,6 +141,13 @@ AC_ARG_ENABLE([mathwriter],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_MATHWRITER],[test x"$enable_mathwriter" != x"no"])
 
+AC_ARG_ENABLE([rovas],
+    [AC_HELP_STRING([--enable-rovas],
+        [Generate Rovas (Old Hungarian) Engine])], ,
+    [enable_rovas=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_ROVAS],[test x"$enable_rovas" != x"no"])
+
 # OUTPUT files
 AC_CONFIG_FILES(Makefile
 icons/Makefile
@@ -169,5 +176,6 @@ Build options:
   Build CNS11643            $enable_cns11643
   Build Emoji               $enable_emoji
   Build Mathwriter          $enable_mathwriter
+  Build Rovas               $enable_rovas
 ])
 

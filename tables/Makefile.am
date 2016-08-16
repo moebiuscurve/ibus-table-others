@@ -75,12 +75,17 @@ if IBUS_TABLE_BUILD_MATHWRITER
 tables_DATA += mathwriter-ibus.db
 endif
 
+if IBUS_TABLE_BUILD_ROVAS
+tables_DATA += hu-old-hungarian-rovas.db
+endif
+
 tables_DATA += $(NULL)
 
 tablesdir = $(datadir)/ibus-table/tables
 
 EXTRA_DIST = \
 	compose.txt \
+	hu-old-hungarian-rovas.txt \
 	ipa-x-sampa.txt \
 	translit.txt \
 	translit-ua.txt \
