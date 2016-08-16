@@ -110,6 +110,10 @@ COMMIT_KEYS = space,Return
 ### The key strokes to select candidiate phrases.
 SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
 
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
 ### The key strokes to page up the lookup table.
 PAGE_UP_KEYS = Page_Up
 
