@@ -40,7 +40,7 @@ AUTHOR = Stas Sergeev <stsp@users.sourceforge.net>
 
 ### The Keyboard Layout used by this table.
 ### Set to "default" to accept any kind of layout
-KEYBOARD_LAYOUT = us
+LAYOUT = us
 
 ### If true then the first candidate phrase
 ### will be selected automatically during inputing.
