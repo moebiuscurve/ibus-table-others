@@ -1,4 +1,70 @@
-commit 55f5a2ad2dae75fb91480e7b0a0e83e58fd8a7da
+commit eaacad0e2c9eb3d8d2744c736c87b1a974d05618
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue Aug 16 20:58:57 2016 +0200
+
+    Release 1.3.8
+
+commit 7246aa005cdfb76a6e3bbaaede79b4451b764301
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue Aug 16 19:58:01 2016 +0200
+
+    Add table for Rovás (Old Hungarian)
+
+commit 030be5846a403af349f58bd407fbed4400794e3c
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue Aug 16 19:06:37 2016 +0200
+
+    Make default orientation of the lookup table for ipa-x-sampa horizontal
+
+commit 9827642e230a6314050338d34514dfc081e47277
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Tue Apr 26 05:25:12 2016 +0530
+
+    removing useless files
+
+commit a0c5870d1afd4401e8dde1f9f98446e988379bdf
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Thu Apr 14 00:52:19 2016 +0530
+
+    added few math symbols
+
+commit e2ef81d67de1c5395cb98d30e871082a7ecd2990
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 16:56:30 2015 +0530
+
+    some more changes in mathwriter
+
+commit 915de3e9e0748600cce642c66abd17736ce1276d
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 03:04:24 2015 +0530
+
+    removing stray mathwriter-ibus.txt~ file
+
+commit daf5542231ab3eed0d6968d06eaaf0ed957c6480
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 02:59:22 2015 +0530
+
+    added more mathematical inputs
+
+commit f9755cd2c3a3a35bb3a9554b584171f9cb08f32f
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 02:18:16 2015 +0530
+
+    some changes use underscore to use subscript
+
+commit d038484d143e23dc39668cdf87171a50553f8fd1
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 02:13:24 2015 +0530
+
+    shit! removing equal character
+
+commit 3b4b4c15d84191cdf833e8b0941303df056e8bf3
+Author: Naveen Kumar <nav007@gmail.com>
+Date:   Sun Mar 1 02:08:37 2015 +0530
+
+    changes to use underscore for subscript chars plus added equal sign for usage
+
+commit 829c82ffc8379729bad0ff68564144dab3a8829f
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Tue Jan 13 12:04:59 2015 +0100
 
