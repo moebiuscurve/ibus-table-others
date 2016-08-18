@@ -57,6 +57,9 @@ AUTHOR = Mike FABIAN <maiku.fabian@gmail.com>
 ### This table can be used with any keyboard layout supporting
 ### all necessary input characters. That means it is probably best
 ### used with a Hungarian layout but may work with some others.
+### As there are several Hungarian layout variants available in
+### /usr/share/X11/xkb/symbols/hu, it is probably not a good idea
+### to force a particular one here.
 LAYOUT = default
 
 ### If true then the first candidate phrase
@@ -152,13 +155,13 @@ Cs	𐲆	0
 CS	𐲆	0
 d	𐳇	0
 D	𐲇	0
-dz	𐳇𐳯	0
-Dz	𐲇𐳯	0
-DZ	𐲇𐲯	0
-dzs	𐳇𐳰	0
-Dzs	𐲇𐳰	0
-DZs	𐲇𐲰	0
-DZS	𐲇𐲰	0
+dz	𐳇‍𐳯	0
+Dz	𐲇‍𐲯	0
+DZ	𐲇‍𐲯	0
+dzs	𐳇‍𐳰	0
+Dzs	𐲇‍𐲰	0
+DZs	𐲇‍𐲰	0
+DZS	𐲇‍𐲰	0
 e	𐳉	0
 E	𐲉	0
 ë	𐳊	0
@@ -208,8 +211,8 @@ O	𐲛	0
 Ő	𐲟	0
 p	𐳠	0
 P	𐲠	0
-q	𐳓𐳮	0
-Q	𐲓𐲮	0
+q	𐳓‍𐳮	0
+Q	𐲓‍𐲮	0
 r	𐳢	0
 R	𐲢	0
 s	𐳤	0
@@ -232,12 +235,12 @@ U	𐲪	0
 Ű	𐲭	0
 v	𐳮	0
 V	𐲮	0
-w	𐳮𐳮	0
-W	𐲮𐲮	0
-x	𐳓𐳥	0
-X	𐲓𐲥	0
-y	𐳐𐳒	0
-Y	𐲐𐲒	0
+w	𐳮‍𐳮	0
+W	𐲮‍𐲮	0
+x	𐳓‍𐳥	0
+X	𐲓‍𐲥	0
+y	𐳐‍𐳒	0
+Y	𐲐‍𐲒	0
 z	𐳯	0
 Z	𐲯	0
 zs	𐳰	0
