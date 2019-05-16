@@ -46,6 +46,7 @@ a	a	0
 a	A	0
 A	A	0
 A	a	0
+A	𝔸	0
 almost_equal_to	≈	0
 almostequalto	≈	0
 ~~	≈	0
@@ -119,6 +120,7 @@ arc	◠	0
 atom	⚛	0
 b	b	0
 B	B	0
+B	𝔹	0
 backward_difference	∇	0
 backward_difference	▽	0
 backwarddifference	∇	0
@@ -174,6 +176,7 @@ c	c	0
 c	©	0
 C	C	0
 C	©	0
+C	ℂ	0
 ceiling_left	⌈	0
 ceilingleft	⌈	0
 ceiling<	⌈	0
@@ -534,6 +537,7 @@ cuberoot	∛	0
 d	d	0
 d	ⅆ	0
 D	D	0
+D	𝔻	0
 degree	°	0
 degree	˚	0
 del	∇	0
@@ -789,6 +793,7 @@ e	e	0
 e	ⅇ	0
 e	ε	0
 E	E	0
+E	𝔼	0
 E	ⅇ	0
 E	ε	0
 E	Ε	0
@@ -942,6 +947,7 @@ exist_quant	∃	0
 existquant	∃	0
 f	f	0
 F	F	0
+F	𝔽	0
 female	♀	0
 Female	♀	0
 final_sigma	ς	0
@@ -979,6 +985,7 @@ function	ƒ	0
 fn	ƒ	0
 g	g	0
 G	G	0
+G	𝔾	0
 gamma	γ	0
 gamma	Γ	0
 Gamma	Γ	0
@@ -1139,6 +1146,8 @@ greater_than_with_question_mark_above	⩼	0
 ?>	⩼	0
 h	h	0
 H	H	0
+H	ℋ	0
+H	ℍ	0
 half	½	0
 hash	#	0
 #	#	0
@@ -1163,6 +1172,7 @@ i	ⅈ	0
 I	I	0
 I	i	0
 I	ⅈ	0
+I	𝕀	0
 identical_to	≡	0
 identicalto	≡	0
 ---	≡	0
@@ -1455,6 +1465,7 @@ Iota	Ι	0
 Iota	ι	0
 j	j	0
 J	j	0
+J	𝕁	0
 join	⨝	0
 |\/|	⨝	0
 |/\|	⨝	0
@@ -1462,6 +1473,7 @@ join	⨝	0
 |X|	⨝	0
 k	k	0
 K	k	0
+K	𝕂	0
 kappa	κ	0
 kappa	κ	0
 kilo_byte	㎅	0
@@ -1481,6 +1493,7 @@ l	ℓ	0
 L	L	0
 L	l	0
 L	ℓ	0
+L	𝕃	0
 lamda	λ	0
 lamda	Λ	0
 Lamda	Λ	0
@@ -1868,6 +1881,7 @@ m	m	0
 m	M	0
 M	M	0
 M	m	0
+M	𝕄	0
 male	♂	0
 Male	♂	0
 matrix_top_left	⎡	0
@@ -2363,6 +2377,7 @@ o	O	0
 o	°	0
 o	˚	0
 O	O	0
+O	𝕆	0
 O	o	0
 O	°	0
 O	˚	0
@@ -2407,6 +2422,7 @@ p	p	0
 p	P	0
 P	P	0
 P	p	0
+P	ℙ	0
 parallel_to	∥	0
 parallel_to	ǁ	0
 parallel_to	‖	0
@@ -2843,6 +2859,7 @@ root2	√	0
 s	s	0
 s	S	0
 S	S	0
+S	𝕊	0
 S	s	0
 S	∫	0
 sector	⌔	0
@@ -3565,6 +3582,7 @@ symmdiff	△	0
 t	t	0
 t	T	0
 T	T	0
+T	𝕋	0
 T	t	0
 tau	τ	0
 tau	Τ	0
@@ -3849,6 +3867,7 @@ u	∪	0
 u	⋃	0
 U	u	0
 U	U	0
+U	𝕌	0
 U	∪	0
 U	⋃	0
 underline	̲	0
@@ -4017,6 +4036,7 @@ v	∨	0
 v	∪	0
 v	⋃	0
 V	V	0
+V	𝕍	0
 V	v	0
 V	∨	0
 V	∪	0
@@ -4084,6 +4104,7 @@ vo|	⫰	0
 w	w	0
 w	W	0
 W	W	0
+W	𝕎	0
 W	w	0
 weierstrass_power_set	℘	0
 weierstrass_powerset	℘	0
@@ -4103,6 +4124,7 @@ whitepawn	♙	0
 white_vertical_bar	⫾	0
 []	⫾	0
 ||	⫾	0
+X	𝕏	0
 x	x	0
 x	X	0
 x	⨯	0
@@ -4122,11 +4144,13 @@ Xi	ξ	0
 y	y	0
 y	Y	0
 Y	Y	0
+Y	𝕐	0
 Y	y	0
 z	z	0
 z	Z	0
 Z	Z	0
 Z	z	0
+Z	ℤ	0
 zeta	ζ	0
 zeta	Ζ	0
 Zeta	Ζ	0
