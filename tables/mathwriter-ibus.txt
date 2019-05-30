@@ -3418,9 +3418,9 @@ super_8	⁸	0
 super8	⁸	0
 super_9	⁹	0
 super9	⁹	0
-super_a	ͣ	0
-supera	ͣ	0
-^a	ͣ	0
+super_a	ᵃ	0
+supera	ᵃ	0
+^a	ᵃ	0
 super_b	ᵇ	0
 superb	ᵇ	0
 ^b	ᵇ	0
@@ -3430,9 +3430,9 @@ superc	ᶜ	0
 super_d	ᵈ	0
 superd	ᵈ	0
 ^d	ᵈ	0
-super_e	ͤ	0
-supere	ͤ	0
-^e	ͤ	0
+super_e	ᵉ	0
+supere	ᵉ	0
+^e	ᵉ	0
 super_f	ᶠ	0
 superf	ᶠ	0
 ^f	ᶠ	0
