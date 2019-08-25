@@ -52,8 +52,16 @@ if IBUS_TABLE_BUILD_THAI
 icons_DATA += thai.png
 endif
 
+if IBUS_TABLE_BUILD_TELEX
+icons_DATA += telex.png
+endif
+
 if IBUS_TABLE_BUILD_VIQR
 icons_DATA += viqr.png
+endif
+
+if IBUS_TABLE_BUILD_VNI
+icons_DATA += vni.png
 endif
 
 if IBUS_TABLE_BUILD_LATEX
@@ -89,7 +97,9 @@ EXTRA_DIST = \
 	rusle.png \
 	yawerty.png \
 	thai.png \
+	telex.png \
 	viqr.png \
+	vni.png \
 	latex.svg \
 	cns11643.png \
 	ibus-emoji.svg \

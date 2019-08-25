@@ -106,12 +106,26 @@ AC_ARG_ENABLE([thai],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_THAI],[test x"$enable_thai" != x"no"])
 
+AC_ARG_ENABLE([telex],
+    [AC_HELP_STRING([--enable-telex],
+        [Generate Telex Engine])], ,
+    [enable_telex=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_TELEX],[test x"$enable_telex" != x"no"])
+
 AC_ARG_ENABLE([viqr],
     [AC_HELP_STRING([--enable-viqr],
         [Generate Viqr Engine])], ,
     [enable_viqr=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_VIQR],[test x"$enable_viqr" != x"no"])
+
+AC_ARG_ENABLE([vni],
+    [AC_HELP_STRING([--enable-vni],
+        [Generate VNI Engine])], ,
+    [enable_vni=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_VNI],[test x"$enable_vni" != x"no"])
 
 AC_ARG_ENABLE([latex],
     [AC_HELP_STRING([--enable-latex],
@@ -171,7 +185,9 @@ Build options:
   Build Russian Legacy      $enable_rusle
   Build Yawerty             $enable_yawerty
   Build Thai                $enable_thai
+  Build Telex               $enable_telex
   Build Viqr                $enable_viqr
+  Build VNI                 $enable_vni
   Build Latex               $enable_latex
   Build CNS11643            $enable_cns11643
   Build Emoji               $enable_emoji

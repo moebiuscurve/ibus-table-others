@@ -55,8 +55,16 @@ if IBUS_TABLE_BUILD_THAI
 tables_DATA += thai.db
 endif
 
+if IBUS_TABLE_BUILD_TELEX
+tables_DATA += telex.db
+endif
+
 if IBUS_TABLE_BUILD_VIQR
 tables_DATA += viqr.db
+endif
+
+if IBUS_TABLE_BUILD_VNI
+tables_DATA += vni.db
 endif
 
 if IBUS_TABLE_BUILD_LATEX
@@ -93,7 +101,9 @@ EXTRA_DIST = \
 	rusle.txt \
 	yawerty.txt \
 	thai.txt \
+	telex.txt \
 	viqr.txt \
+	vni.txt \
 	latex.txt \
 	cns11643.txt \
 	emoji-table.txt \
