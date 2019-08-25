@@ -1,0 +1,347 @@
+### File header must not be modified.
+### This file must be encoded into UTF-8.
+### This table is licensed under GPL version 3.
+### Comments start with ### not single #.
+### Derive from the format of SCIM Table, so you can modify the table from
+### scim-tables' table.
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+LICENSE = GPLv3
+
+### An unique ID to distinguish this table among others.
+### Use uuidgen to generate this kind of ID.
+UUID = 9ad3eccd-5ee9-4776-ad1a-c02095e105a3
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+### Just make your table version-able.
+SERIAL_NUMBER = 20190825
+
+### ICON can be any format as long as your pygtk can recognized.
+### The most widely ones are "png" and "svg", letter one is recommended.
+ICON = vni.png
+
+### The symbol to be displayed in IM switchers.
+SYMBOL = vi
+
+### The default name of this table, this is needed.
+NAME = VNI
+
+### The local names of this table, this is optional.
+###NAME.vi_VN = VNI
+
+### Description
+DESCRIPTION = Vietnamese VNI input method for IBus Table.
+
+### Supported languages of this table.
+### Single "zh_CN" just be recognized as zh_CN,
+### but "zh_CN, zh_HK" or more zh_XX will be recognized as zh,
+### and "en_US, zh_CN" will be just ignored.
+LANGUAGES = vi_VN
+
+### The author of this table.
+AUTHOR = Nguyễn Gia Phong <vn.mcsinyx@gmail.com>
+
+### Prompt string to be displayed in the status area, CN will be replaced by
+### the gettext tools in runtime as 中.
+STATUS_PROMPT = VI
+
+### Valid input chars.
+VALID_INPUT_CHARS = 123456789ADEIOUY\adeiouy
+
+### Layout
+LAYOUT = default
+
+### The max number of input keys for every phrase or character.
+MAX_KEY_LENGTH = 3
+
+### Use auto_commit mode as default.
+AUTO_COMMIT = TRUE
+
+### Automatically selects the first phrase when typing.
+AUTO_SELECT = TRUE
+
+### If TRUE then the lookup table will always be shown if there is any
+### candidate phrase. Otherwise the lookup table won't be shown unless the user
+### requires it by moving the pre-edit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+#### Use full width punctuation by default.
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Not use full width letter by default.
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### Whether user are allow to define phrase, default is TRUE.
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to FALSE.
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Whether support PinYin Mode, default is TRUE.
+### this feature is just for Chinese, set it to FALSE if your IM is not
+### Chinese.
+PINYIN_MODE = FALSE
+
+### If TRUE then the phrases' frequencies will be adjusted dynamically
+### according your using frequency.
+DYNAMIC_ADJUST = FALSE
+
+### Some characters whose frequencies should be fix all the time, e.g.
+### some punctuation.
+###NO_CHECK_CHARS =
+
+### Rules for constructing user defined phrase.
+### "ce" stands for "ci equal", a Chinese English :), means "phrase length
+### equal to", thus ce2 -> phrase length equal to 2, and "ca" means
+### "phrase length equal or above", so ca4 -> phrase length equal or above 4.
+### p21 -> the 1st key of 2nd character in the phrase, and so on.
+### Each rule is separated via ";".
+### Example below is a complete rule-set,
+### because [2,2] ∩ [3,3] ∩ [4,+∞] = [2,+∞], which is the range of length
+### of phrase. This have to be satisfied if you need ibus-table to build up
+### your own input phrase via your daily using.
+###RULES = ce2:p11+p12+p21+p22;ce3:p11+p21+p22+p31;ca4:p11+p21+p31+p41
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = VoidSymbol
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = VoidSymbol
+
+### The key strokes to select candidated phrases.
+SELECT_KEYS = VoidSymbol
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = VoidSymbol
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = VoidSymbol
+
+END_DEFINITION
+
+### Begin Table data.
+### Format of every line whose formatted in "input_keys\tphrase\tfreq\n" is an
+### entry.
+### From left to right, the 1st column are the input key combination that you
+### entered via keyboard; the 2nd column are presented character or phrase of
+### the key combination you want; the 3rd column are frequency of the character
+### or phrase.
+BEGIN_TABLE
+1	1	0
+2	2	0
+3	3	0
+4	4	0
+5	5	0
+6	6	0
+7	7	0
+8	8	0
+9	9	0
+
+A	A	0
+A\	A	0
+A1	Á	0
+A2	À	0
+A3	Ả	0
+A4	Ã	0
+A5	Ạ	0
+
+A8	Ă	0
+A8\	Ă	0
+A81	Ắ	0
+A82	Ằ	0
+A83	Ẳ	0
+A84	Ẵ	0
+A85	Ặ	0
+
+A6	Â	0
+A6\	Â	0
+A61	Ấ	0
+A62	Ầ	0
+A63	Ẩ	0
+A64	Ẫ	0
+A65	Ậ	0
+
+D	D	0
+D\	D	0
+D9	Đ	0
+
+E	E	0
+E\	E	0
+E1	É	0
+E2	È	0
+E3	Ẻ	0
+E4	Ẽ	0
+E5	Ẹ	0
+
+E6	Ê	0
+E6\	Ê	0
+E61	Ế	0
+E62	Ề	0
+E63	Ể	0
+E64	Ễ	0
+E65	Ệ	0
+
+I	I	0
+I\	I	0
+I1	Í	0
+I2	Ì	0
+I3	Ỉ	0
+I4	Ĩ	0
+I5	Ị	0
+
+O	O	0
+O\	O	0
+O1	Ó	0
+O2	Ò	0
+O3	Ỏ	0
+O4	Õ	0
+O5	Ọ	0
+
+O6	Ô	0
+O6\	Ô	0
+O61	Ố	0
+O62	Ồ	0
+O63	Ổ	0
+O64	Ỗ	0
+O65	Ộ	0
+
+O7	Ơ	0
+O7\	Ơ	0
+O71	Ớ	0
+O72	Ờ	0
+O73	Ở	0
+O74	Ỡ	0
+O75	Ợ	0
+
+U	U	0
+U\	U	0
+U1	Ú	0
+U2	Ù	0
+U3	Ủ	0
+U4	Ũ	0
+U5	Ụ	0
+
+U7	Ư	0
+U7\	Ư	0
+U71	Ứ	0
+U72	Ừ	0
+U73	Ử	0
+U74	Ữ	0
+U75	Ự	0
+
+Y	Y	0
+Y\	Y	0
+Y1	Ý	0
+Y2	Ỳ	0
+Y3	Ỷ	0
+Y4	Ỹ	0
+Y5	Ỵ	0
+
+\	\	0
+
+a	a	0
+a\	a	0
+a1	á	0
+a2	à	0
+a3	ả	0
+a4	ã	0
+a5	ạ	0
+
+a8	ă	0
+a8\	ă	0
+a81	ắ	0
+a82	ằ	0
+a83	ẳ	0
+a84	ẵ	0
+a85	ặ	0
+
+a6	â	0
+a6\	â	0
+a61	ấ	0
+a62	ầ	0
+a63	ẩ	0
+a64	ẫ	0
+a65	ậ	0
+
+d	d	0
+d\	d	0
+d9	đ	0
+
+e	e	0
+e\	e	0
+e1	é	0
+e2	è	0
+e3	ẻ	0
+e4	ẽ	0
+e5	ẹ	0
+
+e6	ê	0
+e6\	ê	0
+e61	ế	0
+e62	ề	0
+e63	ể	0
+e64	ễ	0
+e65	ệ	0
+
+i	i	0
+i\	i	0
+i1	í	0
+i2	ì	0
+i3	ỉ	0
+i4	ĩ	0
+i5	ị	0
+
+o	o	0
+o\	o	0
+o1	ó	0
+o2	ò	0
+o3	ỏ	0
+o4	õ	0
+o5	ọ	0
+
+o6	ô	0
+o6\	ô	0
+o61	ố	0
+o62	ồ	0
+o63	ổ	0
+o64	ỗ	0
+o65	ộ	0
+
+o7	ơ	0
+o7\	ơ	0
+o71	ớ	0
+o72	ờ	0
+o73	ở	0
+o74	ỡ	0
+o75	ợ	0
+
+u	u	0
+u\	u	0
+u1	ú	0
+u2	ù	0
+u3	ủ	0
+u4	ũ	0
+u5	ụ	0
+
+u7	ư	0
+u7\	ư	0
+u71	ứ	0
+u72	ừ	0
+u73	ử	0
+u74	ữ	0
+u75	ự	0
+
+y	y	0
+y\	y	0
+y1	ý	0
+y2	ỳ	0
+y3	ỷ	0
+y4	ỹ	0
+y5	ỵ	0
+END_TABLE
