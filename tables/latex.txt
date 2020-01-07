@@ -198,7 +198,7 @@ _x	ₓ	0
 ^(	⁽	0
 ^)	⁾	0
 ^n	ⁿ	0
-### 
+###
 ### Letterlike Symbols, Unicode 9.0 interval 2100-214F
 ###
 ###\mathbb--------------
