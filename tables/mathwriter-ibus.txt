@@ -538,6 +538,8 @@ d	d	0
 d	ⅆ	0
 D	D	0
 D	𝔻	0
+d	δ	0
+D	δ	0
 degree	°	0
 degree	˚	0
 del	∇	0
@@ -1064,6 +1066,8 @@ greater_than_closed_by_curve_above_slanted_equal	⪩	0
 (>//	⪩	0
 (//>	⪩	0
 //(>	⪩	0
+ge	≥	0
+ge	⩾	0
 greater_than_equal_to	≥	0
 greater_than_equal_to	⩾	0
 greaterthanequalto	≥	0
@@ -1640,6 +1644,8 @@ less_than_closed_by_curve_above_slanted_equal	⪨	0
 \\<)	⪨	0
 <)\\	⪨	0
 <\\)	⪨	0
+le	≤	0
+le	⩽	0
 less_than_equal_to	≤	0
 less_than_equal_to	⩽	0
 lessthanequalto	≤	0
@@ -2847,8 +2853,10 @@ righttriangle	◿	0
 ring_operator	∘	0
 ringoperator	∘	0
 composition_of_function	∘	0
+compositionoffunction	∘	0
 o	∘	0
 gof	∘	0
+fog	∘	0
 root_four	∜	0
 rootfour	∜	0
 root_4	∜	0
