@@ -2844,6 +2844,11 @@ righttriangle	◿	0
 |_\	◿	0
 /_|	⊿	0
 /_|	◿	0
+ring_operator	∘	0
+ringoperator	∘	0
+composition_of_function	∘	0
+o	∘	0
+gof	∘	0
 root_four	∜	0
 rootfour	∜	0
 root_4	∜	0
