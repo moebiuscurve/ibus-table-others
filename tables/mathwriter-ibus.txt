@@ -117,6 +117,9 @@ approximately_equal_or_equal_to	⩰	0
 =^~^~	⩰	0
 arc	⌒	0
 arc	◠	0
+asterix_operator	∗	0
+asterixoperator	∗	0
+*	∗	0
 atom	⚛	0
 b	b	0
 B	B	0
