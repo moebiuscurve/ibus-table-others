@@ -3286,6 +3286,9 @@ subv	ᵥ	0
 sub_x	ₓ	0
 _x	ₓ	0
 subx	ₓ	0
+sub_/	⸝	0
+sub/	⸝	0
+_/	⸝	0
 subset_above_subset	⫕	0
 E	⫕	0
 __3	⫕	0
@@ -3549,7 +3552,10 @@ superz	ᶻ	0
 ^z	ᶻ	0
 super_T	ᵀ	0
 superT	ᵀ	0
-^T	ᵀ	0
+^T	ᵀ	
+super_/	ᐟ	0
+super/	ᐟ	0
+^/	ᐟ	0
 super_set	⊃	0
 superset	⊃	0
 >	⊃	0
