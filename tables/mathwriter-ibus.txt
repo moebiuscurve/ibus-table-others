@@ -3897,6 +3897,10 @@ t	T	0
 T	T	0
 T	𝕋	0
 T	t	0
+tangentspace	Tₚ(ℝⁿ)	0
+tangent_space	Tₚ(ℝⁿ)	0
+TpRn	Tₚℝⁿ	0
+TpRn	Tₚ(ℝⁿ)	0
 tau	τ	0
 tau	Τ	0
 Tau	Τ	0
