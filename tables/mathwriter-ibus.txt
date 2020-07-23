@@ -14,7 +14,6 @@ STATUS_PROMPT = Σ
 
 icon = mathwriter.png
 
-MAX_KEY_LENGTH = 100
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ{}[]\|:.<>/?!@#$%^&*()_+-0123456789
 
 ### Layout
@@ -39,7 +38,7 @@ FORWARD_KEYS = Return
 SELECT_KEYS = 1,2,3,4,5,6,7,8,9
 PAGE_UP_KEYS = Page_Up
 PAGE_DOWN_KEYS = Page_Down
-MAX_KEY_LENGTH = 10
+MAX_KEY_LENGTH = 100
 
 
 BEGIN_TABLE
