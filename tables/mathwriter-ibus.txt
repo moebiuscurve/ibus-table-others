@@ -14,7 +14,7 @@ STATUS_PROMPT = Σ
 
 icon = mathwriter.png
 
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ{}[]\|:.<>/?!@#$%^&*()_+-0123456789
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ{}[]\|:.<>/?!@#$%^&*()_+-0123456789=
 
 ### Layout
 ### This table can be used with any layout capable of typing ASCII.
@@ -93,6 +93,7 @@ angle_right	∟	0
 angleright	∟	0
 angle_spherical	∢	0
 anglespherical	∢	0
+/_s	⦞	0
 anticlockwise_closed_circle_arrow	⥀	0
 anticlockwiseclosedcirclearrow	⥀	0
 (<)	⥀	0
@@ -117,6 +118,17 @@ approximately_equal_or_equal_to	⩰	0
 =^~^~	⩰	0
 arc	⌒	0
 arc	◠	0
+<-	🠐	0
+<-|	↤	0
+<--|	⟻	0
+<<-|	⬶	0
+|->	↦	0
+|-->	⟼	0
+|->>	⤅	0
+_/|\_	↥	0
+/|\	↥	0
+-\|/-	↧	0
+\|/	↧	0
 asterix_operator	∗	0
 asterixoperator	∗	0
 *	∗	0
@@ -531,6 +543,7 @@ countour_integral	∮	0
 countourintegral	∮	0
 countour_/()/	∮	0
 countour/()/	∮	0
+(S)	∮	0
 cross_product	⨯	0
 crossproduct	⨯	0
 x_product	⨯	0
@@ -547,6 +560,7 @@ D	D	0
 D	𝔻	0
 d	δ	0
 D	δ	0
+def	≝	0
 degree	°	0
 degree	˚	0
 del	∇	0
@@ -1322,6 +1336,9 @@ hash	#	0
 hat	̂	0
 ^	̂	0
 ^	^	0
+hermitian_conjugate	⊹	0
+hermitianconjugate	⊹	0
++	⊹	0
 horizontal_bar	―	0
 horizontalbar	―	0
 -	―	0
@@ -2064,6 +2081,8 @@ logical_or_withmiddlestem	⩛	0
 logical_orwithmiddlestem	⩛	0
 logicalorwithmiddlestem	⩛	0
 \|/	⩛	0
+/\	⋀	0
+\/	⋁	0
 long_dash_from_left_member_of_double_vertical	⫦	0
 ||-	⫦	0
 ||--	⫦	0
@@ -2093,6 +2112,8 @@ matrix_bottomright	⎦	0
 matrixbottomright	⎦	0
 minus	-	0
 minus	⁻	0
+minus	−	0
+-	−	0
 -	-	0
 -	⁻	0
 ^-	⁻	0
@@ -2472,6 +2493,16 @@ w	⫝	0
 -)_|	⫝	0
 -3_|	⫝	0
 |_E-	⫝	0
+normal_subgroup_of	⊲	0
+normalsubgroupof	⊲	0
+<|	⊲	0
+<|	⊴	0
+!<|	⋪	0
+!<|	⋬	0
+|>	⊳	0
+|>	⊵	0
+!|>	⋫	0
+!|>	⋭	0
 not	!	0
 not	¬	0
 Not	!	0
@@ -2972,6 +3003,9 @@ precedes_above_single-line_not_equal_to	⪱	0
 !_<	⪱	0
 prime	′	0
 prime	ʹ	0
+'	′	0
+''	″	0
+'''	‴	0
 product	∏	0
 \/u	∏	0
 u\/	∏	0
@@ -3214,6 +3248,11 @@ sigma	∑	0
 Sigma	∑	0
 Sigma	Σ	0
 Sigma	σ	0
+sine_wave	∿	0
+sinewave	∿	0
+~	∿	0
+~	〜	0
+~	𛲇	0
 similar_minus_similar	⩬	0
 ~-~	⩬	0
 ~_v~	⩬	0
@@ -3399,6 +3438,7 @@ squareroot	√	0
 sqr_root	√	0
 sqrroot	√	0
 \/-	√	0
+star	⋆	0
 sub_+	₊	0
 _+	₊	0
 sub+	₊	0
@@ -3872,6 +3912,9 @@ superset_with_multiplication_sign_below	⫂	0
 superset_with_plus_sign_below	⫀	0
 >+	⫀	0
 >v+	⫀	0
+surface_integral	∯	0
+surfaceintegral	∯
+(SS)	∯	0
 swastik	卐	0
 swastik	卍	0
 swastik	࿌	0
@@ -3932,6 +3975,11 @@ Theta	ᶿ	0
 three_consecutive_equals_signs	⩶	0
 ===	⩶	0
 ------	⩶	0
+three_dimensional_angle	⟀	0
+threedimensionalangle	⟀	0
+3d_angle	⟀	0
+3dangle	⟀	0
+|/_	⟀	0
 three_fourth	¾	0
 threefourth	¾	0
 three_quarter	¾	0
@@ -4542,6 +4590,8 @@ o--	⫰	0
 o|	⫰	0
 |vo	⫰	0
 vo|	⫰	0
+volume_integral	∰	0
+(SSS)	∰	0
 w	w	0
 w	W	0
 W	W	0
