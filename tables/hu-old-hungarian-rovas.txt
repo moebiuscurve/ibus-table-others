@@ -121,7 +121,7 @@ COMMIT_KEYS = space
 FORWARD_KEYS = Return
 
 ### The key strokes to select candidiate phrases.
-SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9,F10
 
 ### The key strokes to page up the lookup table.
 PAGE_UP_KEYS = Page_Up
