@@ -97,17 +97,20 @@ BEGIN_TABLE
 \backslash	\	0
 \hat	^	0
 \_	_	0
+\|	‖	0
 \grave	`	0
 \tilde	~	0
 \pounds	£	0
 \S	§	0
 \ddot	¨	0
 \lnot	¬	0
+\neg	¬	0
 \bar	¯	0
 \circ	∘	0
 \circ	°	0
 \pm	±	0
 \acute	´	0
+\prime	′	0
 \P	¶	0
 \cdot	·	0
 \frac14	¼	0
@@ -162,6 +165,7 @@ BEGIN_TABLE
 ###
 ### Subscript - superscript
 ###
+_0	₀	0
 _1	₁	0
 _2	₂	0
 _3	₃	0
@@ -171,7 +175,7 @@ _6	₆	0
 _7	₇	0
 _8	₈	0
 _9	₉	0
-_0	₀	0
+_10	⏨	0
 _+	₊	0
 _-	₋	0
 _=	₌	0
@@ -179,7 +183,20 @@ _(	₍	0
 _)	₎	0
 _a	ₐ	0
 _e	ₑ	0
+_h	ₕ	0
+_i	ᵢ	0
+_j	ⱼ	0
+_k	ₖ	0
+_l	ₗ	0
+_m	ₘ	0
+_n	ₙ	0
 _o	ₒ	0
+_p	ₚ	0
+_r	ᵣ	0
+_s	ₛ	0
+_t	ₜ	0
+_u	ᵤ	0
+_v	ᵥ	0
 _x	ₓ	0
 ^0	⁰	0
 ^i	ⁱ	0
@@ -197,7 +214,55 @@ _x	ₓ	0
 ^=	⁼	0
 ^(	⁽	0
 ^)	⁾	0
+^a	ᵃ	0
+^b	ᵇ	0
+^c	ᶜ	0
+^d	ᵈ	0
+^e	ᵉ	0
+^f	ᶠ	0
+^g	ᵍ	0
+^h	ʰ	0
+^i	ⁱ	0
+^j	ʲ	0
+^k	ᵏ	0
+^l	ˡ	0
+^m	ᵐ	0
 ^n	ⁿ	0
+^o	ᵒ	0
+^p	ᵖ	0
+^q	𐞥	0
+^r	ʳ	0
+^s	ˢ	0
+^t	ᵗ	0
+^u	ᵘ	0
+^v	ᵛ	0
+^v	ⱽ	0
+^w	ʷ	0
+^x	ˣ	0
+^y	ʸ	0
+^z	ᶻ	0
+^A	ᴬ	0
+^B	ᴮ	0
+^C	ꟲ	0
+^D	ᴰ	0
+^E	ᴱ	0
+^F	ꟳ	0
+^G	ᴳ	0
+^H	ᴴ	0
+^I	ᴵ	0
+^J	ᴶ	0
+^K	ᴷ	0
+^L	ᴸ	0
+^M	ᴹ	0
+^N	ᴺ	0
+^O	ᴼ	0
+^P	ᴾ	0
+^Q	ꟴ	0
+^R	ᴿ	0
+^T	ᵀ	0
+^U	ᵁ	0
+^V	ⱽ	0
+^W	ᵂ	0
 ###
 ### Letterlike Symbols, Unicode 9.0 interval 2100-214F
 ###
@@ -237,6 +302,7 @@ _x	ₓ	0
 \daleth	ℸ	0
 \imath	𝚤	0
 \jmath	𝚥	0
+\frac03	↉	0
 \frac13	⅓	0
 \frac23	⅔	0
 \frac15	⅕	0
@@ -249,6 +315,8 @@ _x	ₓ	0
 \frac38	⅜	0
 \frac58	⅝	0
 \frac78	⅞	0
+\frac19	⅑	0
+\frac110	⅒	0
 \frac1	⅟	0
 \leftarrow	←	0
 \uparrow	↑	0
@@ -256,6 +324,9 @@ _x	ₓ	0
 \downarrow	↓	0
 \leftrightarrow	↔	0
 \updownarrow	↕	0
+\longleftarrow	⟵	0
+\longrightarrow	⟶	0
+\longleftrightarrow	⟷	0
 \nwarrow	↖	0
 \nearrow	↗	0
 \searrow	↘	0
@@ -268,6 +339,13 @@ _x	ₓ	0
 \leftarrowtail	↢	0
 \rightarrowtail	↣	0
 \mapsto	↦	0
+\mapsfrom	↤	0
+\Mapsto	⤇	0
+\Mapsfrom	⤆	0
+\longmapsto	⟼	0
+\longmapsfrom	⟻	0
+\Longmapsto	⟾	0
+\Longmapsfrom	⟽	0
 \hookleftarrow	↩	0
 \hookrightarrow	↪	0
 \looparrowleft	↫	0
@@ -305,8 +383,14 @@ _x	ₓ	0
 \Downarrow	⇓	0
 \Leftrightarrow	⇔	0
 \Updownarrow	⇕	0
+\Longleftarrow	⟸	0
+\Longrightarrow	⟹	0
+\Longleftrightarrow	⟺	0
 \Lleftarrow	⇚	0
+\leftsquigarrow	⇜	0
 \rightsquigarrow	⇝	0
+\longleftsquigarrow	⬳	0
+\longrightsquigarrow	⟿	0
 \dashleftarrow	⇠	0
 \dashrightarrow	⇢	0
 \forall	∀	0
@@ -468,6 +552,7 @@ _x	ₓ	0
 \multimapdotbothA	⊶	0
 \multimapdotbothB	⊷	0
 \multimap	⊸	0
+\multimapinv	⟜	0
 \intercal	⊺	0
 \veebar	⊻	0
 \barwedge	⊼	0
@@ -475,6 +560,7 @@ _x	ₓ	0
 \bigvee	⋁	0
 \bigcap	⋂	0
 \bigcup	⋃	0
+\square	□	0
 \diamond	⋄	0
 \cdot	⋅	0
 \star	⋆	0
@@ -529,6 +615,13 @@ _x	ₓ	0
 \flat	♭	0
 \natural	♮	0
 \sharp	♯	0
+\langle	〈	0
+\rangle	〉	0
+\llbracket	⟦	0
+\rrbracket	⟧	0
+\llparenthesis	⦇	0
+\rrparenthesis	⦈	0
+
 ### Mathematical Alphanumeric Symbols, Unicode 9.0 interval 1D400-1D7FF
 \mathbfA	𝐀	0
 \mathbfB	𝐁	0
