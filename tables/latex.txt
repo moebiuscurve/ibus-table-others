@@ -562,6 +562,7 @@ _x	ₓ	0
 \bigcup	⋃	0
 \square	□	0
 \diamond	⋄	0
+\lozenge  ◊ 0
 \cdot	⋅	0
 \star	⋆	0
 \divideontimes	⋇	0
