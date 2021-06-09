@@ -98,6 +98,8 @@ BEGIN_TABLE
 \hat	^	0
 \_	_	0
 \|	‖	0
+\--	–	0
+\---	—	0
 \grave	`	0
 \tilde	~	0
 \pounds	£	0
@@ -460,6 +462,10 @@ _x	ₓ	0
 \doteqdot	≑	0
 \fallingdotseq	≒	0
 \risingdotseq	≓	0
+\eqcolon	∹	0
+\coloneqq	≔	0
+\eqqcolon	≕	0
+\Coloneqq	⩴	0
 \eqcirc	≖	0
 \circeq	≗	0
 \stackrel	≘	0
