@@ -162,6 +162,13 @@ AC_ARG_ENABLE([rovas],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_ROVAS],[test x"$enable_rovas" != x"no"])
 
+AC_ARG_ENABLE([mongolbichig],
+    [AC_HELP_STRING([--enable-mongolbichig],
+        [Generate Mongol Bichig Engine (Transliteration to Mongol Script)])], ,
+    [enable_mongolbichig=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_MONGOLBICHIG],[test x"$enable_mongolbichig" != x"no"])
+
 # OUTPUT files
 AC_CONFIG_FILES(Makefile
 icons/Makefile
@@ -193,5 +200,6 @@ Build options:
   Build Emoji               $enable_emoji
   Build Mathwriter          $enable_mathwriter
   Build Rovas               $enable_rovas
+  Build Mongol Bichig       $enable_mongolbichig
 ])
 

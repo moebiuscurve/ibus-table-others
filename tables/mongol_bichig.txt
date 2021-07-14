@@ -1,0 +1,293 @@
+### Table         Mongol bichig Table
+###
+### Author        Popolon <popolon@popolon.org>
+###
+### Description   Translit Table for IBus-Table. This file is derived from
+###               SCIM Tables format, which is derived from GTK2 Input Method
+###               Traditional Mongolian.
+###
+### Upstream repository: https://framagit.org/popolon/ibus-table-mongol_bichig.git
+###
+### This file must be encoded into UTF-8.
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+### https://framagit.org/popolon/ibus-table-mongol_bichig/-/blob/master/LICENSE
+###             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+###                    Version 2, December 2004
+###
+### Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+###
+### Everyone is permitted to copy and distribute verbatim or modified
+### copies of this license document, and changing it is allowed as long
+### as the name is changed.
+###
+###            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+###   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+###
+###  0. You just DO WHAT THE FUCK YOU WANT TO.
+LICENSE = Public Domain
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 1a92f9dd-f4fe-41f3-8a3d-71bd51e911e8
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20210526
+
+ICON = mongol_bichig.svg
+
+### The symbol to be displayed in IM switchers
+### This is used in the Gnome panel!
+### unfortunately Gnome3 has problems displaying “☑<text>” and “☐<text>”
+### correctly in the status bar when <text> is longer than two ASCII characters.
+### (the checkbox becomes invisible making it impossible to see whether
+### the input is active or not).
+### I.e. in case of Mongolian, either use “mn” or if using Mongolian characters
+### use only 1 character to make sure it is not cut off.
+SYMBOL = ᠠ
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = ᠠ
+
+### The default name of this table
+NAME = Mongol bichig
+
+### The local names of this table 
+NAME.mn_MN = Монгол бичгийн
+NAME.mvf_CN = ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ
+
+### Supported languages of this table
+LANGUAGES = mn_MN, mvf_CN
+
+### The author of this table
+AUTHOR = Popolon <popolon@popolon.org>
+
+### The Keyboard Layout used by this table.
+### Set to "default" to accept any kind of layout
+###
+### This table can use Latin characters or Cyrillic characters as input,
+### it can be used with most keyboard layouts using
+### Latin or Cyrillic characters.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = FALSE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 1
+
+### Valid input chars.
+VALID_INPUT_CHARS = 1234567890ACDEFGHIKLNOQRSTWZabcdefghijklmnopqrstuvwxyz{}&'/:
+
+### Single wildcard char, can have multiple chars.
+###SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+###MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9,F10
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### Whether the user is allowed to define a phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Rules for constructing user defined phrase (This is not useful
+### for this table, therefore it is set to the empty string.)
+RULES =
+
+END_DEFINITION
+
+### Begin Table data.
+###
+### For the Latin part of the table see the keyboard layouts
+### at http://www.mongolfont.com/en/misc/mnglkbd.html
+BEGIN_TABLE
+1	᠑	0	### U+1811 MONGOLIAN DIGIT ONE
+2	᠒	0	### U+1812 MONGOLIAN DIGIT TWO
+3	᠓	0	### U+1813 MONGOLIAN DIGIT THREE
+4	᠔	0	### U+1814 MONGOLIAN DIGIT FOUR
+5	᠕	0	### U+1815 MONGOLIAN DIGIT FIVE
+6	᠖	0	### U+1816 MONGOLIAN DIGIT SIX
+7	᠗	0	### U+1817 MONGOLIAN DIGIT SEVEN
+8	᠘	0	### U+1818 MONGOLIAN DIGIT EIGHT
+9	᠙	0	### U+1819 MONGOLIAN DIGIT NINE
+0	᠐	0	### U+1810 MONGOLIAN DIGIT ZERO
+A	᠎	0	### U+180E MONGOLIAN VOWEL SEPARATOR
+### B not used
+C	ᡂ	0	### U+1842 MONGOLIAN LETTER CHI
+D	᠋	0	### U+180B MONGOLIAN FREE VARIATION SELECTOR ONE
+E	ᠧ	0	### U+1827 MONGOLIAN LETTER EE
+F	᠌	0	### U+180C MONGOLIAN FREE VARIATION SELECTOR TWO
+G	᠍	0	### U+180D MONGOLIAN FREE VARIATION SELECTOR THREE
+H	ᠾ	0	### U+183E MONGOLIAN LETTER HAA
+I	᠊	0	### U+180A MONGOLIAN NIRUGU
+### J not used
+K	ᠻ	0	### U+183B MONGOLIAN LETTER KHA
+L	ᡀ	0	### U+1840 MONGOLIAN LETTER LHA
+### M not used
+N	ᠩ	0	### U+1829 MONGOLIAN LETTER ANG
+O	ᠥ	0	### U+1825 MONGOLIAN LETTER OE
+### P not used
+Q	᠁	0	### U+1801 MONGOLIAN ELLIPSIS
+R	ᠿ	0	### U+183F MONGOLIAN LETTER ZRA
+S	 	0	### U+202F NARROW NO-BREAK SPACE
+### T is not used in http://www.mongolfont.com/en/misc/mnglkbd.html)
+### so we can put the currency symbol for the Mongolian currency there:
+### https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+T	₮	0	### U+20AE TUGRIK SIGN
+### U not used
+### V not used
+W	ᠸ	0	### U+1838 MONGOLIAN LETTER WA
+### X not used
+### Y not used
+Z	ᡁ	0	### U+1841 MONGOLIAN LETTER ZHI
+a	ᠠ	0	### U+1820 MONGOLIAN LETTER A
+b	ᠪ	0	### U+182A MONGOLIAN LETTER BA
+c	ᠼ	0	### U+183C MONGOLIAN LETTER TSA
+d	ᠳ	0	### U+1833 MONGOLIAN LETTER DA
+e	ᠡ	0	### U+1821 MONGOLIAN LETTER E
+f	ᠹ	0	### U+1839 MONGOLIAN LETTER FA
+g	ᠭ	0	### U+182D MONGOLIAN LETTER GA
+h	ᠬ	0	### U+182C MONGOLIAN LETTER QA
+i	ᠢ	0	### U+1822 MONGOLIAN LETTER I
+j	ᠵ	0	### U+1835 MONGOLIAN LETTER JA
+k	ᠺ	0	### U+183A MONGOLIAN LETTER KA
+l	ᠯ	0	### U+182F MONGOLIAN LETTER LA
+m	ᠮ	0	### U+182E MONGOLIAN LETTER MA
+n	ᠨ	0	### U+1828 MONGOLIAN LETTER NA
+o	ᠥ	0	### U+1825 MONGOLIAN LETTER OE
+p	ᠫ	0	### U+182B MONGOLIAN LETTER PA
+q	ᠴ	0	### U+1834 MONGOLIAN LETTER CHA
+r	ᠷ	0	### U+1837 MONGOLIAN LETTER RA
+s	ᠰ	0	### U+1830 MONGOLIAN LETTER SA
+t	ᠲ	0	### U+1832 MONGOLIAN LETTER TA
+u	ᠦ	0	### U+1826 MONGOLIAN LETTER UE ?ue, pas u , ni oe
+v	ᠤ	0	### U+1824 MONGOLIAN LETTER U
+w	ᠣ	0	### U+1823 MONGOLIAN LETTER O
+x	ᠱ	0	### U+1831 MONGOLIAN LETTER SHA
+y	ᠶ	0	### U+1836 MONGOLIAN LETTER YA
+z	ᠽ	0	### U+183D MONGOLIAN LETTER ZA
+### Punctuation:
+{	《	0	### U+300A LEFT DOUBLE ANGLE BRACKET
+}	》	0	### U+300B RIGHT DOUBLE ANGLE BRACKET
+### The table on http://www.mongolfont.com/en/misc/mnglkbd.html maps & to
+### the Mongolian NIRUGU in the column for the English keyboard layout:
+&	᠊	0	### U+180A MONGOLIAN NIRUGU
+### The table on http://www.mongolfont.com/en/misc/mnglkbd.html maps ' to
+### the Mongolian NIRUGU in the column for the Japanese keyboard layout:
+'	᠊	0	### U+180A MONGOLIAN NIRUGU
+### The table on http://www.mongolfont.com/en/misc/mnglkbd.html maps / to
+### U+002E FULL STOP both in the column for the English and the Japanese keyboard layout:
+/	.	0	### U+002E FULL STOP
+### : is not used in http://www.mongolfont.com/en/misc/mnglkbd.html but
+### it seems to make sense to map it to the Mongolian colon:
+:	᠄	0	### U+1804 MONGOLIAN COLON
+### Cyrillic section, unfinished:
+ф	ᠹ	0	###
+ц	ᠴ	0	###
+у	ᠤ	0	###
+ж	ᠵ	0	###
+э	ᠡ	0	###
+н	ᠨ	0	###
+г	ᠭ	0	###
+ш	ᠱ	0	###
+ү	ᠦ	0	###
+з	ᠽ	0	###
+к	ᠻ	0	###
+ъ	ᠫ	0	###
+й	ᠩ	0	###
+ы	MVS	0	###
+б	ᠪ	0	###
+ө	ᠥ	0	###
+а	ᠠ	0	###
+х	ᠬ	0	###
+р	ᠷ	0	###
+о	ᠣ	0	###
+л	ᠯ	0	###
+д	ᠳ	0	###
+п	FVS1	0	###
+я	ᠶ	0	###
+ч	ᠼ	0	###
+ё	ᠧ	0	###
+с	ᠰ	0	###
+м	ᠮ	0	###
+и	ᠢ	0	###
+т	ᠲ	0	###
+ь	᠂	0	###
+в	᠃	0	###
+ю	NNBSP	0	###
+Б	ᠸ	0	###
+Р	ᠿ	0	###
+Т	᠅	0	###
+И	᠀	0	###
+Ь	《	0	###
+В	》	0	###
+Х	ᠾ	0	###
+Ч	ᡂ	0	###
+Я	ᡁ	0	###
+Л	ᡀ	0	###
+О	ᠺ	0	###
+Г	FVS2	0	###
+Ш	FVS3	0	###
+Ф	SWNJ	0	###
+У	【	0	###
+Ж	】	0	###
+Э	〈	0	###
+Н	〉	0	###
+END_TABLE

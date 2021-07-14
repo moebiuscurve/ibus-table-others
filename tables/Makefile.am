@@ -87,6 +87,10 @@ if IBUS_TABLE_BUILD_ROVAS
 tables_DATA += hu-old-hungarian-rovas.db
 endif
 
+if IBUS_TABLE_BUILD_MONGOLBICHIG
+tables_DATA += mongol_bichig.db
+endif
+
 tables_DATA += $(NULL)
 
 tablesdir = $(datadir)/ibus-table/tables
@@ -108,6 +112,7 @@ EXTRA_DIST = \
 	cns11643.txt \
 	emoji-table.txt \
 	mathwriter-ibus.txt \
+	mongol_bichig.txt \
 	$(NULL)
 
 DISTCLEANFILES = \

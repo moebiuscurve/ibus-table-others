@@ -84,6 +84,10 @@ if IBUS_TABLE_BUILD_ROVAS
 icons_DATA += hu-old-hungarian-rovas.svg
 endif
 
+if IBUS_TABLE_BUILD_MONGOLBICHIG
+icons_DATA += mongol_bichig.svg
+endif
+
 icons_DATA += $(NULL)
 
 iconsdir = $(datadir)/ibus-table/icons
@@ -105,4 +109,5 @@ EXTRA_DIST = \
 	ibus-emoji.svg \
 	mathwriter.png \
 	hu-old-hungarian-rovas.svg \
+	mongol_bichig.svg \
 	$(NULL)
