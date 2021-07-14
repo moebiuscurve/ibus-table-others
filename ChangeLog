@@ -1,4 +1,173 @@
-commit 18b9cb22744aa7d1e64b35ef186f8ed6802f27c5
+commit 8a7ed6cf8f70e1bcdf4345d5ed9edf0f9b6286c8
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Jul 14 13:02:10 2021 +0200
+
+    Release 1.3.12
+
+commit 58c57c7ff392c911bbff8ed8095884d4529ed7c3
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Jul 14 12:54:43 2021 +0200
+
+    Add Mongol Bichig table
+    
+    Resolves: https://github.com/moebiuscurve/ibus-table-others/issues/23
+    Resolves: https://github.com/kaio/ibus-table/issues/72
+    
+    Upstream repository: https://framagit.org/popolon/ibus-table-mongol_bichig.git
+
+commit da5125a67308ccfed6fb162fe400bdced1fb7d47
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Tue May 25 10:06:47 2021 +0200
+
+    Add F10 to SELECT_KEYS for the tables which use the function keys as select keys
+
+commit 19db5d80d29b0b1a2cc93caeee2805138de59eca
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Wed Jun 9 00:27:41 2021 -0700
+
+    Apparently it's 2021 now.
+
+commit ef6402116564c858ffc8119e2e348c1d873979e4
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Wed Jun 9 00:25:48 2021 -0700
+
+    Update serial number (date)
+
+commit cfa6eaa389873e811d16ea80bc4413b7f49f1222
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Wed Jun 9 00:19:55 2021 -0700
+
+    Update latex.txt
+
+commit 313d8a2e56cf5abfc47233800625613f7cdf0ec6
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Wed Jun 9 00:05:50 2021 -0700
+
+    Update latex.txt
+
+commit 7f01da5809f23d33a42c8be1c109b6fa74a9d306
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Wed Jun 9 00:05:03 2021 -0700
+
+    Update latex.txt
+
+commit 18e7b2500f1b32df0f5c142c947094ea1e39366f
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Tue Jun 8 23:57:12 2021 -0700
+
+    Update latex.txt
+    
+    Added more superscript/subscript letters and numbers, arrows, delimiters, and others.
+
+commit eed53d3051c32c7b730e581d0d1ef4a769ce6cd6
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Mon Jul 27 18:55:36 2020 +0530
+
+    add tilde symbol
+
+commit 53ab1e6e9ce9e98798a866b1dea2ff71752bd0e9
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Mon Jul 27 18:49:56 2020 +0530
+
+    add some symbols
+
+commit 70b48bf09fc982d065dc518bd48d84c0b0944429
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Mon Jul 27 18:48:30 2020 +0530
+
+    add some symbols
+
+commit c22db80080fb492e876e62e5e4591e0d4d1a7674
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Thu Jul 23 14:18:28 2020 +0530
+
+    uc
+
+commit 48cecb47a01c71d252ba3644e6b7f6811fffd67a
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 17:00:37 2020 +0530
+
+    missing dots
+
+commit 3f34e435e15b9f674f5bc642b8b2d79e73ddcb02
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 16:54:23 2020 +0530
+
+    MAX_KEY_LENGTH=10
+
+commit edee918585baaca298fefe613a98ea6cc37281d2
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 16:47:12 2020 +0530
+
+    p1..pn
+
+commit b186e78e47b919b6b7d3a47e7f699eebad85ccbe
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 15:26:43 2020 +0530
+
+    tangent space
+
+commit 3f5c44adcaf33743834fb4b0d25164c29359055a
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 01:17:45 2020 +0530
+
+    R->R
+
+commit 7cbe91c8e816f44706b65b7fcebd57153d0671ef
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 00:16:41 2020 +0530
+
+    f and g super and sub
+
+commit 7871764d2ed14d982852746faa0843a856f94378
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 22 00:09:21 2020 +0530
+
+    point components with super and subscripts
+
+commit 96e9c5a002f25ba4d86ac8ec1e47206168393f63
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Tue Jul 21 23:32:51 2020 +0530
+
+    fn
+
+commit 89acc9d05db1afb36eb1798a1f17a5a5f2784cf7
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Sun Jul 19 03:01:05 2020 +0530
+
+    super and sub fslash
+
+commit 120ed6b79a1a725b895c2be47d93486bcc48bb71
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Sat Jul 18 18:40:36 2020 +0530
+
+    R^n and Z/nZ
+
+commit 14c0d801af6c482f25bf0db88a7734eac5bde145
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Thu Jul 16 02:17:17 2020 +0530
+
+    auto fill
+
+commit c6794625917ad25d1f0ce102140122f457cb276d
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Thu Jul 16 02:12:30 2020 +0530
+
+    asterix operator
+
+commit dec035e74e8b38dc5771086c43b48d58c59a3e53
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Thu Jul 16 01:53:35 2020 +0530
+
+    add some chars
+
+commit c6547bc68ad271c347ed0a2d42cbf7e44626aa06
+Author: moebiuscurve <nav007@gmail.com>
+Date:   Wed Jul 15 19:20:24 2020 +0530
+
+    composition of fn operator
+
+commit 3adbf8ce0b15fd4f629dc46cab4f1a5601d62940
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Tue Jan 7 16:42:59 2020 +0100
 
