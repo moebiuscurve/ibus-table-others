@@ -6,3 +6,4 @@ Makefile.in
 /configure
 /autom4te.cache/
 ibus-table-others.spec
+ibus-table-others-*.tar.gz
