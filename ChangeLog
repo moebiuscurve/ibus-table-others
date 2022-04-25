@@ -1,8 +1,28 @@
-commit 8a7ed6cf8f70e1bcdf4345d5ed9edf0f9b6286c8
+commit 7f61c30f5be9a38352f8f3c247c02d8639c8595f
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Mon Apr 25 11:30:33 2022 +0200
+
+    Release 1.3.13
+
+commit ec9c80571796f68415b8e05a36ea00b90cca3525
+Author: Jonathan Chan <jonathanhwchan@gmail.com>
+Date:   Sun Apr 24 12:19:50 2022 -0700
+
+    Use correct angle brackets
+    
+    `\langle` and `\rangle` were previously U+2329, U+232A from Miscellaneous Technical. Changing them to U+27E8, U+27E9 from Miscellaneous Mathematical Symbols-A makes more sense and lets us also add the double angle brackets U+27EA, U+27EB.
+
+commit 7587b7155fe4c0224662f40a5da1cf2bccf5cbe4
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Wed Jul 14 13:02:10 2021 +0200
 
     Release 1.3.12
+
+commit 826ba70e653cf9a4da180dddeb4365f4482eb4c7
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Jul 14 13:20:48 2021 +0200
+
+    Add stuff to .gitignore
 
 commit 58c57c7ff392c911bbff8ed8095884d4529ed7c3
 Author: Mike FABIAN <mfabian@redhat.com>
