@@ -1,4 +1,16 @@
-commit 7f61c30f5be9a38352f8f3c247c02d8639c8595f
+commit f8348bd74f25588b7113419fc0ddcbd9424c8b23
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Sat Nov 26 11:27:53 2022 +0100
+
+    Release 1.3.14
+
+commit 984a2f13f5ffed97789e8f00126c2e9379257540
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Sat Nov 26 11:26:15 2022 +0100
+
+    Migrate license tags to SPDX
+
+commit bebc2a98d16b750f539a56cbe87a1eae558bd59e
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Mon Apr 25 11:30:33 2022 +0200
 
