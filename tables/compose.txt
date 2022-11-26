@@ -1,7 +1,7 @@
 ### File header must not be modified
 ### This file must be encoded into UTF-8.
 ### redistribute
-### This table under LGPL-2.1 or later
+### This table under LGPL-2.1-or-later or later
 
 SCIM_Generic_Table_Phrase_Library_TEXT
 VERSION_1_0
@@ -19,7 +19,7 @@ UUID = 9e8e0e60-0cf8-11dd-b08f-000e12b86efd
 SERIAL_NUMBER = 20090218
 
 ### License
-LICENSE = GPL
+LICENSE = LGPL-2.1-or-later
 
 ### Description
 DESCRIPTION = Mimic Compose Key input

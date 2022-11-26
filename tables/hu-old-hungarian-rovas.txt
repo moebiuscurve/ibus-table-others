@@ -24,6 +24,10 @@ UUID = 13fca261-3ad5-4b1c-87e2-d44c3b286f18
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20160016
 
+LICENSE = GPL-3.0-or-later
+
+DESCRIPTION = Input method for the Old Hungarian script
+
 ICON = hu-old-hungarian-rovas.svg
 
 ### The symbol to be displayed in IM switchers

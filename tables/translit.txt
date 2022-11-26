@@ -21,6 +21,8 @@ UUID = e39c975a-262b-4ad3-b9b8-15c5ff211e4e
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20161105
 
+LICENSE = LGPL-2.1-or-later
+
 ICON = translit.svg
 
 ### The symbol to be displayed in IM switchers

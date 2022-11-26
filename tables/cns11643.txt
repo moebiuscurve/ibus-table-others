@@ -16,6 +16,8 @@ UUID = 468effb6-69fa-48b8-9207-dc4f722640a0
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20051218
 
+LICENSE = LGPL-2.1-or-later
+
 ICON = cns11643.png
 
 ### The symbol to be displayed in IM switchers

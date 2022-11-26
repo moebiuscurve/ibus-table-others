@@ -24,6 +24,10 @@ UUID = 4ceee9b7-d890-4984-9b7b-9471c3dc7791
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20050425
 
+LICENSE = GPL-3.0-or-later
+
+DESCRIPTION = International Phonetic Alphabet (IPA) input using X-SAMPA transliteration
+
 ICON = ipa-x-sampa.svg
 
 ### The symbol to be displayed in IM switchers

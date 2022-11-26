@@ -16,6 +16,8 @@ UUID = 768a01bf-bc71-90ff-13ca-7bcdcaa875a1
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20080814
 
+LICENSE = LGPL-2.1-or-later
+
 ICON = rustrad.png
 
 ### The symbol to be displayed in IM switchers

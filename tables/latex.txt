@@ -18,7 +18,7 @@ UUID = a619c0a4-c591-4541-8899-5359dc9c4170
 SERIAL_NUMBER = 20210609
 
 ### License
-LICENSE = LGPL
+LICENSE = LGPL-2.1-or-later
 
 ICON = latex.svg
 

@@ -6,6 +6,8 @@ UUID = d789bf95-fecf-4f7a-be64-8054cf877b7c
 
 SERIAL_NUMBER = 20100505
 
+LICENSE = LGPL-2.1-or-later
+
 NAME = mathwriter
 
 LANGUAGES = other

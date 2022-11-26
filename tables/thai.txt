@@ -16,6 +16,8 @@ UUID = d63402a2-2268-44fc-b415-99eb2276ff7b
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20050908
 
+LICENSE = LGPL-2.1-or-later
+
 ICON = thai.png
 
 ### The symbol to be displayed in IM switchers

@@ -16,6 +16,8 @@ UUID = 83e1cb20-027c-11e3-8ffd-0800200c9a66
 ### This number must be less than 2^32.
 SERIAL_NUMBER = 20130811
 
+LICENSE = LGPL-2.1-or-later
+
 ICON = rusle.png
 
 ### The symbol to be displayed in IM switchers
