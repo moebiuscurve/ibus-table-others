@@ -55,7 +55,7 @@ DEF_FULL_WIDTH_LETTER = FALSE
 MAX_KEY_LENGTH = 20
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890^\_[]{}
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890^\_[]
 
 ### Start characters, every key in the table starts with one of these characters
 START_CHARS = \_^
