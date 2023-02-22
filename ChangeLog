@@ -1,4 +1,34 @@
-commit f8348bd74f25588b7113419fc0ddcbd9424c8b23
+commit 37fb1f18a5bfbe52dc1dbfb0cd4b058ef323298e
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Feb 22 12:03:41 2023 +0100
+
+    Release 1.3.15
+
+commit 118c31d0461ab1f56692a6921f730a28b4d77edf
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Feb 22 11:56:33 2023 +0100
+
+    Remove { and } from VALID_INPUT_CHARS in latex.txt
+    
+    Resolves: https://github.com/moebiuscurve/ibus-table-others/issues/27
+    
+    { and } were used long ago in the original version of latex.txt, but they are not used anymore since
+    
+        commit 879b13882cd570cd69e3923b118522a898995f9a
+        Author: Giuseppe Castagna <Giuseppe.Castagna@univ-paris-diderot.fr>
+        Date:   Wed Jul 23 08:41:30 2014 +0200
+    
+            Updates and bugfixes for the LaTeX table by Giuseppe Castagna (original author of the LaTeX table)
+    
+    Therefore, they should not be in VALID_INPUT_CHARS.
+
+commit f4727418629b14508f8f16616d0044b9e226d1d8
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Fri Jan 13 16:56:37 2023 +0100
+
+    Add “Mongol bichig” to README
+
+commit 0792491166db689c0838a75a5c60936a28f12bcd
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Sat Nov 26 11:27:53 2022 +0100
 
