@@ -113,7 +113,7 @@ DEF_FULL_WIDTH_LETTER = FALSE
 MAX_KEY_LENGTH = 5
 
 ### Valid input chars.
-VALID_INPUT_CHARS == /~`_\|§?,;'":0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÁÄËÉÓÖŐÚÜŰabcdefghijklmnopqrstuvwxyzáäéëóöőúüű
+VALID_INPUT_CHARS == /~`_\|§?,;'":0123456789ABCDEFGHIÍJKLMNOPQRSTUVWXYZÁÄËÉÓÖŐÚÜŰabcdefghiíjklmnopqrstuvwxyzáäéëóöőúüű
 
 ### The key strokes to split inputted string.
 ###SPLIT_KEYS = quoteright
