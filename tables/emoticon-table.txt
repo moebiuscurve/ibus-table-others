@@ -25,7 +25,7 @@ SERIAL_NUMBER = 20100211
 
 ### ICON can be any format as long as your pygtk can recognized
 ### the most widely ones are "png" and "svg", letter one is recommended
-ICON = ibus-emoji.svg
+ICON = ibus-emoticon.svg
 
 ### The symbol to be displayed in IM switchers
 SYMBOL = ^_^
@@ -34,7 +34,7 @@ SYMBOL = ^_^
 STATUS_PROMPT = ^_^
 
 ### The default name of this table, this is needed
-NAME = emoji
+NAME = emoticon
 
 ### The local names of this table, this is optional
 NAME.zh_CN = 颜文字
@@ -42,7 +42,7 @@ NAME.zh_HK = 顏文字
 NAME.zh_TW = 顏文字
 
 ### Description
-DESCRIPTION = table for emoji o(*￣▽￣*)q 
+DESCRIPTION = table for emoticons o(*￣▽￣*)q 
 
 ### Supported languages of this table
 ### sigle "zh_CN" just be recognized as zh_CN,
@@ -101,7 +101,7 @@ MULTI_WILDCARD_CHAR = *
 USER_CAN_DEFINE_PHRASE = FALSE
 
 ### Rules for constructing user defined phrase (This is not useful
-### for emoji-table, therefore it is set to the empty string.)
+### for emoticon-table, therefore it is set to the empty string.)
 RULES =
 
 END_DEFINITION

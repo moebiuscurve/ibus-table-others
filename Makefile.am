@@ -22,7 +22,7 @@ SUBDIRS = \
 	icons \
 	m4 \
 	tables \
-	emoji-src \
+	emoticon-src \
 	$(NULL)
 
 ACLOCAL_AMFLAGS = -I m4

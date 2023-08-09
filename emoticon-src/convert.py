@@ -4,7 +4,7 @@ if __name__ == "__main__":
     text = text.replace('\r', '').replace('\t','')
     lines = text.split('\n')
     r = re.compile('.*?([a-z]+),[0-9]+=(.*)$')
-    of = open('emoji-table.txt.data', 'w+')
+    of = open('emoticon-table.txt.data', 'w+')
     for line in lines:
         try:
             key, val = r.match(line).groups()
@@ -12,4 +12,3 @@ if __name__ == "__main__":
         except Exception, e:
             print line;
     of.close()
-    

@@ -117,7 +117,7 @@ PAGE_DOWN_KEYS = Page_Down
 USER_CAN_DEFINE_PHRASE = FALSE
 
 ### Rules for constructing user defined phrase (This is not useful
-### for emoji-table, therefore it is set to the empty string.)
+### for rusle therefore it is set to the empty string.)
 RULES =
 
 END_DEFINITION

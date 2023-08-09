@@ -21,5 +21,5 @@
 EXTRA_DIST = \
     Phrases.ini \
     convert.py  \
-    emoji-table.txt.data \
+    emoticon-table.txt.data \
     $(NULL)

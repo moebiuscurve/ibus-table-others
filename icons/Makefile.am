@@ -72,8 +72,8 @@ if IBUS_TABLE_BUILD_CNS11643
 icons_DATA += cns11643.png
 endif
 
-if IBUS_TABLE_BUILD_EMOJI
-icons_DATA += ibus-emoji.svg
+if IBUS_TABLE_BUILD_EMOTICON
+icons_DATA += ibus-emoticon.svg
 endif
 
 if IBUS_TABLE_BUILD_MATHWRITER
@@ -106,7 +106,7 @@ EXTRA_DIST = \
 	vni.png \
 	latex.svg \
 	cns11643.png \
-	ibus-emoji.svg \
+	ibus-emoticon.svg \
 	mathwriter.png \
 	hu-old-hungarian-rovas.svg \
 	mongol_bichig.svg \

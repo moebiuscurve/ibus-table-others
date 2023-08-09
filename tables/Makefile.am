@@ -75,8 +75,8 @@ if IBUS_TABLE_BUILD_CNS11643
 tables_DATA += cns11643.db
 endif
 
-if IBUS_TABLE_BUILD_EMOJI
-tables_DATA += emoji-table.db
+if IBUS_TABLE_BUILD_EMOTICON
+tables_DATA += emoticon-table.db
 endif
 
 if IBUS_TABLE_BUILD_MATHWRITER
@@ -110,7 +110,7 @@ EXTRA_DIST = \
 	vni.txt \
 	latex.txt \
 	cns11643.txt \
-	emoji-table.txt \
+	emoticon-table.txt \
 	mathwriter-ibus.txt \
 	mongol_bichig.txt \
 	$(NULL)

@@ -141,12 +141,12 @@ AC_ARG_ENABLE([cns11643],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_CNS11643],[test x"$enable_cns11643" != x"no"])
 
-AC_ARG_ENABLE([emoji],
-    [AC_HELP_STRING([--enable-emoji],
-        [Generate Emoji Engine])], ,
-    [enable_emoji=yes])
+AC_ARG_ENABLE([emoticon],
+    [AC_HELP_STRING([--enable-emoticon],
+        [Generate Emoticon Engine])], ,
+    [enable_emoticon=yes])
 
-AM_CONDITIONAL([IBUS_TABLE_BUILD_EMOJI],[test x"$enable_emoji" != x"no"])
+AM_CONDITIONAL([IBUS_TABLE_BUILD_EMOTICON],[test x"$enable_emoticon" != x"no"])
 
 AC_ARG_ENABLE([mathwriter],
     [AC_HELP_STRING([--enable-mathwriter],
@@ -174,7 +174,7 @@ AC_CONFIG_FILES(Makefile
 icons/Makefile
 tables/Makefile
 m4/Makefile
-emoji-src/Makefile
+emoticon-src/Makefile
 ibus-table-others.spec
 )
 
@@ -197,7 +197,7 @@ Build options:
   Build VNI                 $enable_vni
   Build Latex               $enable_latex
   Build CNS11643            $enable_cns11643
-  Build Emoji               $enable_emoji
+  Build Emoticon            $enable_emoticon
   Build Mathwriter          $enable_mathwriter
   Build Rovas               $enable_rovas
   Build Mongol Bichig       $enable_mongolbichig
