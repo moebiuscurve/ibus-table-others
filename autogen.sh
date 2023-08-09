@@ -2,7 +2,5 @@
 set -e
 set -x
 
-aclocal -I m4
-automake --add-missing --copy
-autoconf
+autoreconf --verbose --install --force
 ./configure --enable-maintainer-mode $*

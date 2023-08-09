@@ -32,7 +32,7 @@ m4_define(ibus_maybe_datestamp,
 m4_define([ibus_version],
     ibus_major_version.ibus_minor_version.ibus_micro_version[]ibus_maybe_datestamp)
 
-AC_INIT([package_name], [ibus_version], [http://code.google.com/p/ibus/issues/entry], [package_name])
+AC_INIT([package_name],[ibus_version],[http://code.google.com/p/ibus/issues/entry],[package_name])
 AM_INIT_AUTOMAKE([1.10])
 AM_MAINTAINER_MODE
 
@@ -51,120 +51,103 @@ AC_PATH_PROG([IBUS_TABLE_CREATEDB],[ibus-table-createdb],
 
 # choose table
 AC_ARG_ENABLE([ipaxsampa],
-    [AC_HELP_STRING([--enable-ipaxsampa],
-        [Generate ipx-a-sampa Engine])], ,
+    [AS_HELP_STRING([--enable-ipaxsampa],[Generate ipx-a-sampa Engine])], ,
     [enable_ipaxsampa=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_IPAXSAMPA],[test x"$enable_ipaxsampa" != x"no"])
 
 AC_ARG_ENABLE([compose],
-    [AC_HELP_STRING([--enable-compose],
-        [Generate Compose Engine])], ,
+    [AS_HELP_STRING([--enable-compose],[Generate Compose Engine])], ,
     [enable_compose=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_COMPOSE],[test x"$enable_compose" != x"no"])
 
 AC_ARG_ENABLE([translit],
-    [AC_HELP_STRING([--enable-translit],
-        [Generate Translit Engine])], ,
+    [AS_HELP_STRING([--enable-translit],[Generate Translit Engine])], ,
     [enable_translit=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_TRANSLIT],[test x"$enable_translit" != x"no"])
 
 AC_ARG_ENABLE([translitua],
-    [AC_HELP_STRING([--enable-translitua],
-        [Generate Ukrainian Translit Engine])], ,
+    [AS_HELP_STRING([--enable-translitua],[Generate Ukrainian Translit Engine])], ,
     [enable_translitua=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_TRANSLITUA],[test x"$enable_translitua" != x"no"])
 
 AC_ARG_ENABLE([rustrad],
-    [AC_HELP_STRING([--enable-rustrad],
-        [Generate Russian Traditional Engine])], ,
+    [AS_HELP_STRING([--enable-rustrad],[Generate Russian Traditional Engine])], ,
     [enable_rustrad=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_RUSTRAD],[test x"$enable_rustrad" != x"no"])
 
 AC_ARG_ENABLE([rusle],
-    [AC_HELP_STRING([--enable-rusle],
-        [Generate Russian Legacy Engine])], ,
+    [AS_HELP_STRING([--enable-rusle],[Generate Russian Legacy Engine])], ,
     [enable_rusle=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_RUSLE],[test x"$enable_rusle" != x"no"])
 
 AC_ARG_ENABLE([yawerty],
-    [AC_HELP_STRING([--enable-yawerty],
-        [Generate Yawerty Engine])], ,
+    [AS_HELP_STRING([--enable-yawerty],[Generate Yawerty Engine])], ,
     [enable_yawerty=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_YAWERTY],[test x"$enable_yawerty" != x"no"])
 
 AC_ARG_ENABLE([thai],
-    [AC_HELP_STRING([--enable-thai],
-        [Generate Thai Engine])], ,
+    [AS_HELP_STRING([--enable-thai],[Generate Thai Engine])], ,
     [enable_thai=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_THAI],[test x"$enable_thai" != x"no"])
 
 AC_ARG_ENABLE([telex],
-    [AC_HELP_STRING([--enable-telex],
-        [Generate Telex Engine])], ,
+    [AS_HELP_STRING([--enable-telex],[Generate Telex Engine])], ,
     [enable_telex=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_TELEX],[test x"$enable_telex" != x"no"])
 
 AC_ARG_ENABLE([viqr],
-    [AC_HELP_STRING([--enable-viqr],
-        [Generate Viqr Engine])], ,
+    [AS_HELP_STRING([--enable-viqr],[Generate Viqr Engine])], ,
     [enable_viqr=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_VIQR],[test x"$enable_viqr" != x"no"])
 
 AC_ARG_ENABLE([vni],
-    [AC_HELP_STRING([--enable-vni],
-        [Generate VNI Engine])], ,
+    [AS_HELP_STRING([--enable-vni],[Generate VNI Engine])], ,
     [enable_vni=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_VNI],[test x"$enable_vni" != x"no"])
 
 AC_ARG_ENABLE([latex],
-    [AC_HELP_STRING([--enable-latex],
-        [Generate Latex Engine])], ,
+    [AS_HELP_STRING([--enable-latex],[Generate Latex Engine])], ,
     [enable_latex=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_LATEX],[test x"$enable_latex" != x"no"])
 
 AC_ARG_ENABLE([cns11643],
-    [AC_HELP_STRING([--enable-cns11643],
-        [Generate CNS11643 Engine])], ,
+    [AS_HELP_STRING([--enable-cns11643],[Generate CNS11643 Engine])], ,
     [enable_cns11643=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_CNS11643],[test x"$enable_cns11643" != x"no"])
 
 AC_ARG_ENABLE([emoticon],
-    [AC_HELP_STRING([--enable-emoticon],
-        [Generate Emoticon Engine])], ,
+    [AS_HELP_STRING([--enable-emoticon],[Generate Emoticon Engine])], ,
     [enable_emoticon=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_EMOTICON],[test x"$enable_emoticon" != x"no"])
 
 AC_ARG_ENABLE([mathwriter],
-    [AC_HELP_STRING([--enable-mathwriter],
-        [Generate Mathwriter Engine])], ,
+    [AS_HELP_STRING([--enable-mathwriter],[Generate Mathwriter Engine])], ,
     [enable_mathwriter=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_MATHWRITER],[test x"$enable_mathwriter" != x"no"])
 
 AC_ARG_ENABLE([rovas],
-    [AC_HELP_STRING([--enable-rovas],
-        [Generate Rovas (Old Hungarian) Engine])], ,
+    [AS_HELP_STRING([--enable-rovas],[Generate Rovas (Old Hungarian) Engine])], ,
     [enable_rovas=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_ROVAS],[test x"$enable_rovas" != x"no"])
 
 AC_ARG_ENABLE([mongolbichig],
-    [AC_HELP_STRING([--enable-mongolbichig],
-        [Generate Mongol Bichig Engine (Transliteration to Mongol Script)])], ,
+    [AS_HELP_STRING([--enable-mongolbichig],[Generate Mongol Bichig Engine (Transliteration to Mongol Script)])], ,
     [enable_mongolbichig=yes])
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_MONGOLBICHIG],[test x"$enable_mongolbichig" != x"no"])
