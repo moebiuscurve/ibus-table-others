@@ -1,6 +1,9 @@
+#!/usr/bin/python3
 import re
 if __name__ == "__main__":
-    text = file('Phrases.ini', 'r').read()
+    text = ''
+    with open('Phrases.ini', 'r') as file:
+        text = file.read()
     text = text.replace('\r', '').replace('\t','')
     lines = text.split('\n')
     r = re.compile('.*?([a-z]+),[0-9]+=(.*)$')
@@ -9,6 +12,6 @@ if __name__ == "__main__":
         try:
             key, val = r.match(line).groups()
             of.write('%s\t%s\t0\n' % (key, val))
-        except Exception, e:
-            print line;
+        except Exception as e:
+            print(line)
     of.close()
