@@ -1,4 +1,32 @@
-commit b162f3ff0b98dda87f1db4682e7a3e15fb11de23
+commit cfe9161631cc4904e26abb432bf63b5a08c329f0
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 12:20:53 2023 +0200
+
+    Release 1.3.17
+
+commit d74c4179c7e4b274c43b34ab46af001c42067b78
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 12:23:55 2023 +0200
+
+    Make emoticon-src/convert.py work with Python3 as well
+
+commit bfad2781ef8dc0d86d4e243af846ce744b1ea0f6
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 12:15:22 2023 +0200
+
+    Rename emoji-table to emoticon-table
+    
+    Resolves: https://github.com/moebiuscurve/ibus-table-others/issues/15
+
+commit 220c3113a53804d0a65d12009e21b2ebcfcc1f76
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 11:52:55 2023 +0200
+
+    Remove useless m4/as-version.m4
+    
+    Resolves: https://github.com/moebiuscurve/ibus-table-others/issues/36
+
+commit 95453dfb5a6960d19c54391b124a09dbd791a1ec
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Tue Jul 4 09:47:10 2023 +0200
 
