@@ -173,7 +173,6 @@ AM_CONDITIONAL([IBUS_TABLE_BUILD_MONGOLBICHIG],[test x"$enable_mongolbichig" != 
 AC_CONFIG_FILES(Makefile
 icons/Makefile
 tables/Makefile
-m4/Makefile
 emoticon-src/Makefile
 ibus-table-others.spec
 )
