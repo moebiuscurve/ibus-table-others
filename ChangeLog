@@ -1,4 +1,35 @@
-commit cfe9161631cc4904e26abb432bf63b5a08c329f0
+commit f6c73a1be4905b573d3930c3e689147d4b5f3ba4
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Mon Sep 23 12:38:47 2024 +0200
+
+    Release 1.3.18
+
+commit e6c8e72574b4e5ef1778390aaa21730269faa38e
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Mon Sep 23 12:04:47 2024 +0200
+
+    Some fixes for the hu-old-hungarian-rovas table
+    
+    - usage of repeated postfixes was inconsistent, fix that
+    - add missing line: `b      𐳂       0       ### U+10CC2 OLD HUNGARIAN SMALL LETTER EB`
+    - fix typo in _Enc, _ENc, _ENC (lowercase was mistakenly used)
+    - remove duplicate _ENT
+
+commit b91aee37657996ca4ef40918fdcd598a988a9c9f
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 17:06:40 2023 +0200
+
+    Use “autoupdate” to modernize configure.ac and some other files
+
+commit 19144ce9db85617982c596ef4929ca63c6685dbb
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   Wed Aug 9 16:53:47 2023 +0200
+
+    Remove useless m4/Makefile.am
+    
+    See: https://github.com/moebiuscurve/ibus-table-others/issues/36
+
+commit 2ac1af3744406c2de333fbc5127db7cf3c773c75
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Wed Aug 9 12:20:53 2023 +0200
 
