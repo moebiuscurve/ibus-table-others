@@ -1,4 +1,12 @@
-commit f6c73a1be4905b573d3930c3e689147d4b5f3ba4
+commit b2b91cbbcd93a7279a4de5a49e4ed7d202661f34
+Author: Noa <coolreader18@gmail.com>
+Date:   Wed Feb 12 12:09:48 2025 -0600
+
+    Add ⟨anɡle brackets⟩ to X-SAMPA
+    
+    Resolves: https://github.com/moebiuscurve/ibus-table-others/pull/37
+
+commit 19251f6e9e72fa4de5a2e7790ddec917059e68d1
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   Mon Sep 23 12:38:47 2024 +0200
 
