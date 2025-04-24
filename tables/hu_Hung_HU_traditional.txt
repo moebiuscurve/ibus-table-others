@@ -34,7 +34,7 @@ LICENSE = GPL-3.0-or-later
 
 DESCRIPTION = Input method for the Old Hungarian script
 
-ICON = hu_Hung_HU.png
+ICON = hu_Hung_HU_traditional.png
 
 ### The symbol to be displayed in IM switchers
 SYMBOL = 
