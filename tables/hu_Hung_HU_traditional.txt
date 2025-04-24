@@ -1,0 +1,326 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+###
+### This file implements Old Hungarian.keyboard layout.
+### See the Unicode standard docfiles:
+###
+###Letters, symbols and numbershttps://www.unicode.org/charts/PDF/U10C80.pdf
+###Ligatures: https://www.unicode.org/L2/L2008/08356-n3531-oldhungarian.pdf
+###
+### This should be used with a Hungarian keyboard layout
+### (other keyboard layouts might lack some of the special
+### Hungarian characters like ó, ö, ő, ...)
+### The key definitions aren't associated by letters meanings, it means positions on the keyboard instead.
+### This layout works correctly only with Latin based Hungarian layout.
+### Other implementations of ibus project, which developed as key means as it means, in Hungarian layout, make spelling problems,. Eg.: zs lettercombination in Latin based Hungarian can means as a symple z-s letter sequence or zs sound: k-ö-z-s-é-g, b-e-zs-á-k-o-l. In other words, OLD HUNGARIAN LETTER EZS is not a ligature. All critical  letters/letter-sequences in Latin base Hungarian alphabet: Cs, cs, ccs, Gy, gy, ggy, Ly, ly, lly, Ny, ny, nny, Sz, sz, ssz, Ty, ty, tty, Zs zs, zzs, Dz, dz, Dzs, dzs. 
+### dzs, and dz ligatures are not defined in Unicode standard.
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Please generate uuid .
+UUID = 
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20250421
+
+LICENSE = GPL-3.0-or-later
+
+DESCRIPTION = Input method for the Old Hungarian script
+
+ICON = hu_Hung_HU.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = 
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = 
+
+### The default name of this table
+NAME = Szekler_Hungarian_traditional_Rovas
+
+### The local names of this table
+NAME.en = Old Hungarian traditional
+NAME.de = Altungarisch traditional
+NAME.hu = Székely-Magyar tradícionális Rovás
+
+### Supported languages of this table
+LANGUAGES = hu
+
+### The author of this table
+AUTHOR = Viktor Kovács <kovacs.h.viktor@gmail.comdition>
+
+### The Keyboard Layout used by this table.
+### Set to "default" to accept any kind of layout
+###
+### This table can be used with any keyboard layout supporting
+### all necessary input characters. That means it is probably best
+### used with a Hungarian layout, but may not work with some others.
+### As there are several Hungarian layout variants available in.
+### This implementation compatible with xkeyboard-config and keyman.com implementation
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 5
+
+### Valid input chars.
+VALID_INPUT_CHARS == /~`_\|§?,;'":+!%=()0123456789ABCDEFGHIÍJKLMNOPQRSTUVWXYZÁÄËÉÓÖŐÚÜŰabcdefghiíjklmnopqrstuvwxyzáäéëóöőúüű
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9,F10
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Rules for constructing user defined phrase (This is not useful
+### for this table, therefore it is set to the empty string.)
+RULES =
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+/	/	0	
+_	_	0	
+'	'	0	
+/'	⹂	0	
+"	"	0	
+/"	‟	0	
+:	:	0	
+,	⹁	0	### U+2E41 REVERSED COMMA
+?	⸮	0	### U+2E2E REVERSED QUESTION MARK
+;	⁏	0	### U+204f REVERSED SEMICOLON
+0	‍	0	### U+200D ZERO WIDTH JOINER
+/0	0	0	
+§	‏	0	### U+200F RIGHT-TO-LEFT MARK
+/§	‎	0	### U+200E LEFT-TO-RIGHT MARK
+1	𐳺	0	### U+10CFA OLD HUNGARIAN NUMBER ONE
+/1	1	0	
+2	𐳻	0	### U+10CFB OLD HUNGARIAN NUMBER FIVE
+/2	2	0	
+3	𐳼	0	### u+10CFC OLD HUNGARIAN NUMBER TEN
+/3	3	0	
+/+	-	0	
+4	𐳽	0	### U+10CFD OLD HUNGARIAN NUMBER FIFTY
+/4	4	0	
+/!	‼	0	
+5	𐳾	0	### U+10CFE OLD HUNGARIAN NUMBER HUNDRED
+/5	5	0	
+/%	…	0	
+6	𐳿	0	### U+10CFF OLD HUNGARIAN NUMBER THOUSAND
+/6	6	0
+7	𐳆	0	### U+10CC6 OLD HUNGARIAN SMALL LETTER ECS
+=	𐲆	0	### U+10C86 OLD HUNGARIAN CAPITAL LETTER ECS
+/=	=	0	
+8	𐳚	0	### U+10CDA OLD HUNGARIAN SMALL LETTER ENY
+(	𐲚	0	### U+10C9A OLD HUNGARIAN CAPITAL LETTER ENY
+/8	8	0	
+/(	(	0 	
+9	𐳨	0	### U+10CE8 OLD HUNGARIAN SMALL LETTER ETY
+)	𐲨	0	### U+10CA8 OLD HUNGARIAN CAPITAL LETTER ETY
+/9	9	0	
+a	𐳀	0	### U+10CC0 OLD HUNGARIAN SMALL LETTER A
+A	𐲀	0	### U+10C80 OLD HUNGARIAN CAPITAL LETTER A
+á	𐳁	0	### U+10CC1 OLD HUNGARIAN SMALL LETTER AA
+Á	𐲁	0	### U+10C81 OLD HUNGARIAN CAPITAL LETTER AA
+ä	𐳉	0	### U+10CC9 OLD HUNGARIAN SMALL LETTER E
+Ä	𐲉	0	### U+10C89 OLD HUNGARIAN CAPITAL LETTER E
+b	𐳂	0	### U+10CC2 OLD HUNGARIAN SMALL LETTER EB
+B	𐲂	0	### U+10C82 OLD HUNGARIAN CAPITAL LETTER EB
+c	𐳄	0	### U+10CC4 OLD HUNGARIAN SMALL LETTER EC
+C	𐲄	0	### U+10C84 OLD HUNGARIAN CAPITAL LETTER EC
+d	𐳇	0	### U+10CC7 OLD HUNGARIAN SMALL LETTER ED
+D	𐲇	0	### U+10C87 OLD HUNGARIAN CAPITAL LETTER ED
+e	𐳉	0	### U+10CC9 OLD HUNGARIAN SMALL LETTER E
+E	𐲉	0	### U+10C89 OLD HUNGARIAN CAPITAL LETTER E
+ë	𐳊	0	### U+10CCA OLD HUNGARIAN SMALL LETTER CLOSE E
+Ë	𐲊	0	### U+10C8A OLD HUNGARIAN CAPITAL LETTER CLOSE E
+é	𐳋	0	### U+10CCB OLD HUNGARIAN SMALL LETTER EE
+É	𐲋	0	### U+10C8B OLD HUNGARIAN CAPITAL LETTER EE
+f	𐳌	0	### U+10CCC OLD HUNGARIAN SMALL LETTER EF
+F	𐲌	0	### U+10C8C OLD HUNGARIAN CAPITAL LETTER EF
+g	𐳍	0	### U+10CCD OLD HUNGARIAN SMALL LETTER EG
+G	𐲍	0	### U+10C8D OLD HUNGARIAN CAPITAL LETTER EG
+q	𐳎	0	### U+10CCE OLD HUNGARIAN SMALL LETTER EGY
+Q	𐲎	0	### U+10C8E OLD HUNGARIAN CAPITAL LETTER EGY
+h	𐳏	0	### U+10CCF OLD HUNGARIAN SMALL LETTER EH
+H	𐲏	0	### U+10C8F OLD HUNGARIAN CAPITAL LETTER EH
+i	𐳐	0	### U+10CD0 OLD HUNGARIAN SMALL LETTER I
+I	𐲐	0	### U+10C90 OLD HUNGARIAN CAPITAL LETTER I
+í	𐳑	0	### U+10CD1 OLD HUNGARIAN SMALL LETTER II
+Í	𐲑	0	### U+10C91 OLD HUNGARIAN CAPITAL LETTER II
+j	𐳒	0	### U+10CD2 OLD HUNGARIAN SMALL LETTER EJ
+J	𐲒	0	### U+10C92 OLD HUNGARIAN CAPITAL LETTER EJ
+k	𐳓	0	### U+10CD3 OLD HUNGARIAN SMALL LETTER EK
+K	𐲓	0	### U+10C93 OLD HUNGARIAN CAPITAL LETTER EK
+l	𐳖	0	### U+10CD6 OLD HUNGARIAN SMALL LETTER EL
+L	𐲖	0	### U+10C96 OLD HUNGARIAN CAPITAL LETTER EL
+y	𐳗	0	### U+10CD7 OLD HUNGARIAN SMALL LETTER ELY
+Y	𐲗	0	### U+10C97 OLD HUNGARIAN CAPITAL LETTER ELY
+m	𐳘	0	### U+10CD8 OLD HUNGARIAN SMALL LETTER EM
+M	𐲘	0	### U+10C98 OLD HUNGARIAN CAPITAL LETTER EM
+n	𐳙	0	### U+10CD9 OLD HUNGARIAN SMALL LETTER EN
+N	𐲙	0	### U+10C99 OLD HUNGARIAN CAPITAL LETTER EN
+o	𐳛	0	### U+10CDB OLD HUNGARIAN SMALL LETTER O
+O	𐲛	0	### U+10C9B OLD HUNGARIAN CAPITAL LETTER O
+ó	𐳜	0	### U+10CDC OLD HUNGARIAN SMALL LETTER OO
+Ó	𐲜	0	### U+10C9C OLD HUNGARIAN CAPITAL LETTER OO
+ö	𐳞	0	### U+10CDE OLD HUNGARIAN SMALL LETTER RUDIMENTA OE
+Ö	𐲞	0	### U+10C9E OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE
+ő	𐳟	0	### U+10CDF OLD HUNGARIAN SMALL LETTER OEE
+Ő	𐲟	0	### U+10C9F OLD HUNGARIAN CAPITAL LETTER OEE
+p	𐳠	0	### U+10CE0 OLD HUNGARIAN SMALL LETTER EP
+P	𐲠	0	### U+10CA0 OLD HUNGARIAN CAPITAL LETTER EP
+q	𐳎	0	### U+10CCE OLD HUNGARIAN SMALL LETTER EGY
+Q	𐲎	0	### U+10C8E OLD HUNGARIAN CAPITAL LETTER EGY
+r	𐳢	0	### U+10CE2 OLD HUNGARIAN SMALL LETTER ER
+R	𐲢	0	### U+10CA2 OLD HUNGARIAN CAPITAL LETTER ER
+s	𐳤	0	### U+10CE4 OLD HUNGARIAN SMALL LETTER ES
+S	𐲤	0	### U+10CA4 OLD HUNGARIAN CAPITAL LETTER ES
+x	𐳥	0	### U+10CE5 OLD HUNGARIAN SMALL LETTER ESZ
+X	𐲥	0	### U+10CA5 OLD HUNGARIAN CAPITAL LETTER ESZ
+t	𐳦	0	### U+10CE6 OLD HUNGARIAN SMALL LETTER ET
+T	𐲦	0	### U+10CA6 OLD HUNGARIAN CAPITAL LETTER ET
+u	𐳪	0	### U+10CEA OLD HUNGARIAN SMALL LETTER U
+U	𐲪	0	### U+10CAA OLD HUNGARIAN CAPITAL LETTER U
+ú	𐳫	0	### U+10CEB OLD HUNGARIAN SMALL LETTER UU
+Ú	𐲫	0	### U+10CAB OLD HUNGARIAN CAPITAL LETTER UU
+ü	𐳭	0	### U+10CED OLD HUNGARIAN SMALL LETTER RUDIMENTA UE
+Ü	𐲭	0	### U+10CAD OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE
+ű	𐳬	0	### U+10CEC OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE
+Ű	𐲬	0	### U+10CAC OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE
+v	𐳮	0	### U+10CEE OLD HUNGARIAN SMALL LETTER EV
+V	𐲮	0	### U+10CAE OLD HUNGARIAN CAPITAL LETTER EV
+w	𐳰	0	### U+10CF0 OLD HUNGARIAN SMALL LETTER EZS
+W	𐲰	0	### U+10CB0 OLD HUNGARIAN CAPITAL LETTER EZS
+x	𐳥	0	### U+10CE5 OLD HUNGARIAN SMALL LETTER ESZ
+X	𐲥	0	### U+10CA5 OLD HUNGARIAN CAPITAL LETTER ESZ
+y	𐳗	0	### U+10CD7 OLD HUNGARIAN SMALL LETTER ELY
+Y	𐲗	0	### U+10C97 OLD HUNGARIAN CAPITAL LETTER ELY
+z	𐳯	0	### U+10CEF OLD HUNGARIAN SMALL LETTER EZ
+Z	𐲯	0	### U+10CAF OLD HUNGARIAN CAPITAL LETTER EZ
+/a	𐳃	0	### U+10CC3 OLD HUNGARIAN SMALL LETTER AMB
+/A	𐲃	0	### U+10C83 OLD HUNGARIAN CAPITAL LETTER AMB
+/á	𐳈	0	### U+10CC8 OLD HUNGARIAN SMALL LETTER AND
+/Á	𐲈	0	### U+10C88 OLD HUNGARIAN CAPITAL LETTER AND
+/b	{	0	
+/B	}	0	
+/c	𐳅	0	### U+10CC5 OLD HUNGARIAN SMALL LETTER ENC
+/C	𐲅	0	### U+10C85 OLD HUNGARIAN CAPITAL LETTER ENC
+/d	𐳧	0	### U+10CE7 OLD HUNGARIAN SMALL LETTER ENT
+/D	𐲧	0	### U+10CA7 OLD HUNGARIAN CAPITAL LETTER ENT
+/e	𐳊	0	### U+10CCA OLD HUNGARIAN SMALL LETTER CLOSE E
+/E	𐲊	0	### U+10C8A OLD HUNGARIAN CAPITAL LETTER CLOSE E
+/f	[	0	
+/F	]	0	
+/g	]	0	
+/G	[	0	
+/h	𐳩	0	### U+10CE9 OLD HUNGARIAN SMALL LETTER ECH
+/H	𐲩	0	### U+10CA9 OLD HUNGARIAN CAPITAL LETTER ECH
+/i	𐳑	0	### U+10CD1 OLD HUNGARIAN SMALL LETTER II
+/I	𐲑	0	### U+10C91 OLD HUNGARIAN CAPITAL LETTER II
+/k	𐳔	0	### U+10CD4 OLD HUNGARIAN SMALL LETTER AK
+/K	𐲔	0	### U+10C94 OLD HUNGARIAN CAPITAL LETTER AK
+/m	}	0	
+/M	{	0	
+/n	{	0	
+/N	}	0	
+/ö	𐳝	0	### U+10CDD OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE
+/Ö	𐲝	0	### U+10C9D OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE
+/q	\	0	
+/Q	/	0	
+/r	𐳣	0	### U+10CE3 OLD HUNGARIAN SMALL LETTER SHORT ER
+/R	𐲣	0	### U+10CA3 OLD HUNGARIAN CAPITAL LETTER SHORT ER
+/s	𐳡	0	### U+10CE1 OLD HUNGARIAN SMALL LETTER EMP
+/S	𐲡	0	### U+10CA1 OLD HUNGARIAN CAPITAL LETTER EMP
+/t	𐳱	0	### U+10CF1 OLD HUNGARIAN SMALL LETTER ENT-SHAPED SIGN
+/T	𐲱	0	### U+10CB1 OLD HUNGARIAN CAPITAL LETTER ENT-SHAPED SIGN
+/u	𐳲	0	### U+10CF2 OLD HUNGARIAN SMALL LETTER US
+/U	𐲲	0	### U+10CB2 OLD HUNGARIAN CAPITAL LETTER US
+/ú	𐳕	0	### U+10CD5 OLD HUNGARIAN SMALL LETTER UNK
+/Ú	𐲕	0	### U+10C95 OLD HUNGARIAN CAPITAL LETTER UNK
+/ü	§	0	
+/w	|	0	
+/y	>	0	
+/Y	<	0	
+/x	#	0	
+/X	#	0	
+_ZWJ	‍	0	### U+200D ZERO WIDTH JOINER
+_RLM	‏	0	### U+200F RIGHT-TO-LEFT MARK, us layout
+_LRM	‎	0	### U+200C LEFT-TO-RIGHT MARK, us layout
+_LRE	‪	0	### U+202A LEFT-TO-RIGHT EMBEDDING
+_RLE	‫	0	### U+202B RIGHT-TO-LEFT EMBEDDING
+_LRO	‭	0	### U+202D LEFT-TO-RIGHT OVERRIDE
+_RLO	‮	0	### U+202E RIGHT-TO-LEFT OVERRIDE
+_PDF	‬	0	### U+202C POP DIRECTIONAL FORMATTING
+_LRI	⁦	0	### U+2066 LEFT-TO-RIGHT ISOLATE
+_RLI	⁧	0	### U+2067 RIGHT-TO-LEFT ISOLATE
+_FSI	⁨	0	### U+2068 FIRST STRONG ISOLATE
+_PDI	⁩	0	### U+2069 POP DIRECTIONAL ISOLATE
+END_TABLE

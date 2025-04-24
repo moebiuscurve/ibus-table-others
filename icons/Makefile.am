@@ -84,6 +84,10 @@ if IBUS_TABLE_BUILD_ROVAS
 icons_DATA += hu-old-hungarian-rovas.svg
 endif
 
+if IBUS_TABLE_BUILD_HUHUNGTRADITIONAL
+icons_DATA += hu_Hung_HU_traditional.png
+endif
+
 if IBUS_TABLE_BUILD_MONGOLBICHIG
 icons_DATA += mongol_bichig.svg
 endif
@@ -109,5 +113,6 @@ EXTRA_DIST = \
 	ibus-emoticon.svg \
 	mathwriter.png \
 	hu-old-hungarian-rovas.svg \
+	hu_Hung_HU_traditional.png \
 	mongol_bichig.svg \
 	$(NULL)

@@ -146,6 +146,12 @@ AC_ARG_ENABLE([rovas],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_ROVAS],[test x"$enable_rovas" != x"no"])
 
+AC_ARG_ENABLE([huhungtraditional],
+    [AS_HELP_STRING([--enable-huhungtraditional],[Generate hu_Hung_HU_traditional Engine])], ,
+    [enable_huhungtraditional=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_HUHUNGTRADITIONAL],[test x"$enable_huhungtraditional" != x"no"])
+
 AC_ARG_ENABLE([mongolbichig],
     [AS_HELP_STRING([--enable-mongolbichig],[Generate Mongol Bichig Engine (Transliteration to Mongol Script)])], ,
     [enable_mongolbichig=yes])
@@ -164,24 +170,25 @@ AC_OUTPUT
 
 AC_MSG_RESULT([
 Build options:
-  Version                   $VERSION
-  Install prefix            $prefix
-  Build compose             $enable_compose
-  Build ipx-a-sampa         $enable_ipaxsampa
-  Build Translit            $enable_translit
-  Build Ukrainian Translit  $enable_translitua
-  Build Russian Traditional $enable_rustrad
-  Build Russian Legacy      $enable_rusle
-  Build Yawerty             $enable_yawerty
-  Build Thai                $enable_thai
-  Build Telex               $enable_telex
-  Build Viqr                $enable_viqr
-  Build VNI                 $enable_vni
-  Build Latex               $enable_latex
-  Build CNS11643            $enable_cns11643
-  Build Emoticon            $enable_emoticon
-  Build Mathwriter          $enable_mathwriter
-  Build Rovas               $enable_rovas
-  Build Mongol Bichig       $enable_mongolbichig
+  Version                      $VERSION
+  Install prefix               $prefix
+  Build compose                $enable_compose
+  Build ipx-a-sampa            $enable_ipaxsampa
+  Build Translit               $enable_translit
+  Build Ukrainian Translit     $enable_translitua
+  Build Russian Traditional    $enable_rustrad
+  Build Russian Legacy         $enable_rusle
+  Build Yawerty                $enable_yawerty
+  Build Thai                   $enable_thai
+  Build Telex                  $enable_telex
+  Build Viqr                   $enable_viqr
+  Build VNI                    $enable_vni
+  Build Latex                  $enable_latex
+  Build CNS11643               $enable_cns11643
+  Build Emoticon               $enable_emoticon
+  Build Mathwriter             $enable_mathwriter
+  Build Rovas                  $enable_rovas
+  Build hu_Hung_HU_traditional $enable_huhungtraditional
+  Build Mongol Bichig          $enable_mongolbichig
 ])
 

@@ -87,6 +87,10 @@ if IBUS_TABLE_BUILD_ROVAS
 tables_DATA += hu-old-hungarian-rovas.db
 endif
 
+if IBUS_TABLE_BUILD_HUHUNGTRADITIONAL
+tables_DATA += hu_Hung_HU_traditional.db
+endif
+
 if IBUS_TABLE_BUILD_MONGOLBICHIG
 tables_DATA += mongol_bichig.db
 endif
@@ -98,6 +102,7 @@ tablesdir = $(datadir)/ibus-table/tables
 EXTRA_DIST = \
 	compose.txt \
 	hu-old-hungarian-rovas.txt \
+	hu_Hung_HU_traditional.txt \
 	ipa-x-sampa.txt \
 	translit.txt \
 	translit-ua.txt \
