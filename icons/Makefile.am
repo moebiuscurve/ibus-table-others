@@ -68,6 +68,10 @@ if IBUS_TABLE_BUILD_LATEX
 icons_DATA += latex.svg
 endif
 
+if IBUS_TABLE_BUILD_LEAN
+icons_DATA += lean.svg
+endif
+
 if IBUS_TABLE_BUILD_CNS11643
 icons_DATA += cns11643.png
 endif
@@ -109,6 +113,7 @@ EXTRA_DIST = \
 	viqr.png \
 	vni.png \
 	latex.svg \
+	lean.svg \
 	cns11643.png \
 	ibus-emoticon.svg \
 	mathwriter.png \

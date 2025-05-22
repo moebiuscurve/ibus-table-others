@@ -122,6 +122,12 @@ AC_ARG_ENABLE([latex],
 
 AM_CONDITIONAL([IBUS_TABLE_BUILD_LATEX],[test x"$enable_latex" != x"no"])
 
+AC_ARG_ENABLE([lean],
+    [AS_HELP_STRING([--enable-lean],[Generate Lean Engine])], ,
+    [enable_lean=yes])
+
+AM_CONDITIONAL([IBUS_TABLE_BUILD_LEAN],[test x"$enable_lean" != x"no"])
+
 AC_ARG_ENABLE([cns11643],
     [AS_HELP_STRING([--enable-cns11643],[Generate CNS11643 Engine])], ,
     [enable_cns11643=yes])
@@ -184,6 +190,7 @@ Build options:
   Build Viqr                   $enable_viqr
   Build VNI                    $enable_vni
   Build Latex                  $enable_latex
+  Build Lean                   $enable_lean
   Build CNS11643               $enable_cns11643
   Build Emoticon               $enable_emoticon
   Build Mathwriter             $enable_mathwriter

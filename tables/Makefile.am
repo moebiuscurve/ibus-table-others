@@ -71,6 +71,10 @@ if IBUS_TABLE_BUILD_LATEX
 tables_DATA += latex.db
 endif
 
+if IBUS_TABLE_BUILD_LEAN
+tables_DATA += lean.db
+endif
+
 if IBUS_TABLE_BUILD_CNS11643
 tables_DATA += cns11643.db
 endif
@@ -114,6 +118,7 @@ EXTRA_DIST = \
 	viqr.txt \
 	vni.txt \
 	latex.txt \
+	lean.txt \
 	cns11643.txt \
 	emoticon-table.txt \
 	mathwriter-ibus.txt \
